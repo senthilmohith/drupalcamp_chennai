@@ -1,0 +1,14 @@
+uuid: fb5b6dd5-de27-4d32-aa64-8ccdc352d087
+name: 'DrupalCamp Chennnai'
+mail: admin@drupalcampchennai.org
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
