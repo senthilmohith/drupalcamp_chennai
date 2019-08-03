@@ -1,0 +1,23 @@
+{
+  "name": "dcc19",
+  "version": "1.0.0",
+  "description": "DrupalCamp Chennai 2019",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Senthilkumar Arumugam",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-sass": "^4.0.2",
+    "autoprefixer": "^6.5.4"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ]
+}
