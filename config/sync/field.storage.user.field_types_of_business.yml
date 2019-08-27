@@ -1,0 +1,42 @@
+uuid: a4a80b11-2ac4-48bb-8d57-9ad2076eb91f
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_types_of_business
+field_name: field_types_of_business
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: _none
+      label: '- None -'
+    -
+      value: drupal_customer
+      label: 'Drupal Customer'
+    -
+      value: drupal_agency
+      label: 'Drupal Agency'
+    -
+      value: hosting_company
+      label: 'Hosting Company'
+    -
+      value: independant_service_vendor
+      label: 'Independant Service Vendor'
+    -
+      value: media_parter_pr_firm
+      label: 'Media Parter/PR Firm'
+    -
+      value: other
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

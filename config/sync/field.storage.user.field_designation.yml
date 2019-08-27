@@ -1,0 +1,51 @@
+uuid: 4a4d09ce-ae81-4c6d-8b22-6d02a6135fab
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_designation
+field_name: field_designation
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: _none
+      label: '- None -'
+    -
+      value: student
+      label: Student
+    -
+      value: backend_developer
+      label: 'Backend Developer'
+    -
+      value: frontend_developer
+      label: 'Frontend Developer'
+    -
+      value: full_stack_developer
+      label: 'Full stack developer'
+    -
+      value: technical_architect
+      label: 'Technical Architect'
+    -
+      value: project_manager
+      label: 'Project Manager'
+    -
+      value: quality_assurance
+      label: 'Quality Assurance'
+    -
+      value: c_x_o
+      label: CxO
+    -
+      value: other
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
