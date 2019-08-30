@@ -11,7 +11,7 @@ _core:
 id: dcc19_help
 theme: dcc19
 region: content
-weight: -30
+weight: -5
 provider: null
 plugin: help_block
 settings:

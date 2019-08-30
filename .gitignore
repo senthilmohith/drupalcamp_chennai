@@ -26,3 +26,11 @@
 
 # Ignore node modules by npm
 /web/themes/custom/*/node_modules/
+
+# Ignore .sql files
+/web/*.sql
+/web/sites/*/*.sql
+
+# Ignore editor configurations files
+console
+console/*
