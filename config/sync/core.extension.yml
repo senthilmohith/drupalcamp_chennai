@@ -32,6 +32,7 @@ module:
   path: 0
   quickedit: 0
   rdf: 0
+  recaptcha: 0
   search: 0
   shortcut: 0
   social_api: 0
