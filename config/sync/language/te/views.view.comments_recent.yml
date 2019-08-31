@@ -1,0 +1,11 @@
+label: 'ఇటీవలి వ్యాఖ్యలు'
+display:
+  default:
+    display_options:
+      title: 'ఇటీవలి వ్యాఖ్యలు'
+      empty:
+        area_text_custom:
+          content: 'వ్యాఖ్యలు లేవు'
+  block_1:
+    display_options:
+      block_description: 'ఇటీవలి వ్యాఖ్యలు'

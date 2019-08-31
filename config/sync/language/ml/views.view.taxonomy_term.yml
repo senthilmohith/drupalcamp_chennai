@@ -1,0 +1,8 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: പുനഃക്രമീകരണം
+  feed_1:
+    display_title: ഫീഡ്

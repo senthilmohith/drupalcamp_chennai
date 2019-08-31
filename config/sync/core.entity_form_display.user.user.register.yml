@@ -49,6 +49,7 @@ hidden:
   field_location_city: true
   field_organization_college: true
   field_types_of_business: true
+  langcode: true
   language: true
   timezone: true
   user_picture: true

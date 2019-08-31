@@ -1,0 +1,24 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ఆపాదించు
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        title:
+          label: శీర్షిక
+        name:
+          label: రచయిత
+        changed:
+          label: 'చివరి తాజాకరణ'
+  attachment_1:
+    display_title: జోడింపు
+  page_1:
+    display_title: పేజీ

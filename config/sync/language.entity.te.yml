@@ -1,0 +1,9 @@
+uuid: 882e0576-08c1-46fb-87c5-c5b4af455a2b
+langcode: en
+status: true
+dependencies: {  }
+id: te
+label: Telugu
+direction: ltr
+weight: 2
+locked: false

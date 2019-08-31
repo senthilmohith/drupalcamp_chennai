@@ -1,0 +1,37 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: వడపోయి
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        nothing:
+          admin_label: ప్రతీకం
+        severity:
+          label: తీవ్రత
+        type:
+          label: రకం
+        timestamp:
+          label: తేదీ
+        message:
+          label: సందేశం
+        name:
+          label: వాడుకరి
+        link:
+          label: కార్యాలు
+      filters:
+        type:
+          expose:
+            label: రకం
+        severity:
+          expose:
+            label: తీవ్రత
+  page:
+    display_title: పేజీ

@@ -1,0 +1,32 @@
+label: ആളുകള്‍
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ഫിൽറ്റർ
+          reset_button_label: പുനഃക്രമീകരണം
+      fields:
+        name:
+          label: 'ഉപയോക്താവിന്റെ നാമം'
+        status:
+          label: സ്ഥിതി
+          settings:
+            format_custom_true: സജീവമായ
+        operations:
+          label: പ്രവര്‍ത്തനങ്ങള്‍
+      filters:
+        status:
+          group_info:
+            label: സ്ഥിതി
+            group_items:
+              1:
+                title: സജീവമായ
+      title: ആളുകള്‍
+      use_more_text: കൂടുതൽ
+  page_1:
+    display_options:
+      menu:
+        title: പട്ടിക
+      tab_options:
+        title: ആളുകള്‍

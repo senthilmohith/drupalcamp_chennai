@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ఆపాదించు
+      pager:
+        options:
+          tags:
+            previous: '‹ మునుపటి'
+            next: 'తదుపరి ›'
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+      fields:
+        operations:
+          label: కార్యాలు
+  page_1:
+    display_title: పేజీ

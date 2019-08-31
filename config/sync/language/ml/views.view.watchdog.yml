@@ -1,0 +1,29 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ഫിൽറ്റർ
+          reset_button_label: പുനഃക്രമീകരണം
+      fields:
+        nothing:
+          admin_label: ഐക്കൺ
+        severity:
+          label: തീവ്രത
+        type:
+          label: തരം
+        timestamp:
+          label: തിയ്യതി
+        message:
+          label: സന്ദേശം
+        name:
+          label: ഉപയോക്താവ്
+        link:
+          label: പ്രവര്‍ത്തനങ്ങള്‍
+      filters:
+        type:
+          expose:
+            label: തരം
+        severity:
+          expose:
+            label: തീവ്രത

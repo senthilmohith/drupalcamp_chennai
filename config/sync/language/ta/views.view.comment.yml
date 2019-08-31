@@ -1,0 +1,92 @@
+label: கருத்துகள்
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: விண்ணப்பி
+          reset_button_label: மீளமை
+          exposed_sorts_label: வரிசையாக
+      pager:
+        options:
+          tags:
+            previous: '‹ முந்திய'
+            next: 'அடுத்த ›'
+            first: '« முதல்'
+            last: 'கடைசி »'
+          expose:
+            items_per_page_options_all_label: '- அனைத்தும் -'
+      fields:
+        comment_bulk_form:
+          action_title: செயல்
+        subject:
+          label: பொருள்
+          separator: ', '
+        uid:
+          separator: ', '
+        name:
+          label: எழுத்தாளர்
+          separator: ', '
+        entity_id:
+          label: பதிப்பிக்கப்பட்டது
+          separator: ', '
+        changed:
+          label: மாற்றப்பட்டது
+          separator: ', '
+        operations:
+          label: செயல்பாடுகள்
+        name_1:
+          separator: ', '
+      filters:
+        subject:
+          expose:
+            label: பொருள்
+        combine:
+          expose:
+            label: 'ஆசிரியர் பெயர்'
+        langcode:
+          expose:
+            label: மொழி
+      title: கருத்துகள்
+      empty:
+        area_text_custom:
+          content: 'பின்னூட்டங்கள் இல்லை'
+      use_more_text: மேலும்
+  page_published:
+    display_title: 'பதிப்பிக்கப்பட்ட பின்னூட்டங்கள்'
+    display_options:
+      menu:
+        title: கருத்துகள்
+  page_unapproved:
+    display_title: 'அனுமதிக்கப்படாத கருத்துகள்'
+    display_options:
+      menu:
+        title: 'அனுமதிக்கப்படாத கருத்துகள்'
+      filters:
+        subject:
+          expose:
+            label: பொருள்
+        langcode:
+          expose:
+            label: மொழி
+      fields:
+        comment_bulk_form:
+          action_title: செயல்
+        subject:
+          label: பொருள்
+          separator: ', '
+        uid:
+          separator: ', '
+        name:
+          label: எழுத்தாளர்
+          separator: ', '
+        entity_id:
+          label: பதிப்பிக்கப்பட்டது
+          separator: ', '
+        changed:
+          label: மாற்றப்பட்டது
+          separator: ', '
+        operations:
+          label: செயல்பாடுகள்
+        name_1:
+          separator: ', '

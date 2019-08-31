@@ -1,0 +1,63 @@
+label: వ్యాఖ్యలు
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ఆపాదించు
+      pager:
+        options:
+          tags:
+            previous: '‹ గత'
+            next: 'తదుపరి ›'
+            first: '« మొదటి'
+            last: 'చివరి »'
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+      fields:
+        comment_bulk_form:
+          action_title: చర్య
+        subject:
+          label: విషయం
+        name:
+          label: రచయిత
+        operations:
+          label: కార్యాలు
+      filters:
+        subject:
+          expose:
+            label: విషయం
+        langcode:
+          expose:
+            label: భాష
+      title: వ్యాఖ్యలు
+      empty:
+        area_text_custom:
+          content: 'వ్యాఖ్యలు లేవు'
+      use_more_text: మరిన్ని
+  page_published:
+    display_title: 'ప్రచురించిన వ్యాఖ్యలు'
+    display_options:
+      menu:
+        title: వ్యాఖ్యలు
+  page_unapproved:
+    display_title: 'అనుమతించని వ్యాఖ్యలు'
+    display_options:
+      menu:
+        title: 'అనుమతించని వ్యాఖ్యలు'
+      filters:
+        subject:
+          expose:
+            label: విషయం
+        langcode:
+          expose:
+            label: భాష
+      fields:
+        comment_bulk_form:
+          action_title: చర్య
+        subject:
+          label: విషయం
+        name:
+          label: రచయిత
+        operations:
+          label: కార్యాలు

@@ -1,0 +1,30 @@
+uuid: 67dad365-3e94-42c9-b5d8-588f8b21451a
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - dcc19
+id: languageswitcher
+theme: dcc19
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: Language
+  provider: language
+  label_display: visible
+visibility:
+  language:
+    id: language
+    langcodes:
+      en: en
+      ta: ta
+      te: te
+      ml: ml
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'

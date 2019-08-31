@@ -1,0 +1,19 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ഫിൽറ്റർ
+          reset_button_label: പുനഃക്രമീകരണം
+      fields:
+        filename:
+          label: പേര്
+        status:
+          label: സ്ഥിതി
+      filters:
+        filename:
+          expose:
+            label: 'ഫയലിന്റെ പേര്'
+        status:
+          expose:
+            label: സ്ഥിതി

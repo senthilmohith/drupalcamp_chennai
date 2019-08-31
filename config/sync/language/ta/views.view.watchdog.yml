@@ -1,0 +1,47 @@
+label: 'கண்காணிப்பு அமைப்பு'
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: வடிகட்டி
+          reset_button_label: மீளமை
+          exposed_sorts_label: வரிசையாக
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- அனைத்தும் -'
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        nothing:
+          admin_label: குறுபடம்
+        wid:
+          label: WID
+        severity:
+          label: தீவிரம்
+        type:
+          label: வகை
+        timestamp:
+          label: தேதி
+        message:
+          label: செய்தி
+        name:
+          label: பயனர்
+          separator: ', '
+        link:
+          label: செயல்பாடுகள்
+      filters:
+        type:
+          expose:
+            label: வகை
+        severity:
+          expose:
+            label: தீவிரம்
+      empty:
+        area:
+          admin_label: 'எந்தவொரு செயல்பாட்டுக் குறிப்புகளும் இல்லை.'
+          content: 'எந்தவொரு செயல்பாட்டுக் குறிப்புகளும் இல்லை.'
+  page:
+    display_title: பக்கம்

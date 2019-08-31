@@ -1,0 +1,9 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: പുനഃക്രമീകരണം
+      use_more_text: കൂടുതല്‍
+  block_1:
+    display_title: ബ്ലോക്ക്

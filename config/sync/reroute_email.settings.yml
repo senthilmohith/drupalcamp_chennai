@@ -1,6 +1,6 @@
 enable: true
-description: true
-message: true
+description: false
+message: false
 mailkeys: ''
 _core:
   default_config_hash: FWyW0pDoSvPRtqOVlIbk4PxTLiS9S_Ng7zS1JOflWVE
