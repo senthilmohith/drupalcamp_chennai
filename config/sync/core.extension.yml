@@ -16,6 +16,7 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  email_registration: 0
   field: 0
   field_ui: 0
   file: 0
@@ -33,8 +34,10 @@ module:
   quickedit: 0
   rdf: 0
   recaptcha: 0
+  reroute_email: 0
   search: 0
   shortcut: 0
+  smtp: 0
   social_api: 0
   social_auth: 0
   social_auth_facebook: 0
