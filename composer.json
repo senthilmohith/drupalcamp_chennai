@@ -22,7 +22,7 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/admin_toolbar": "^1.27",
         "drupal/bootstrap": "^3.20",
-        "drupal/console": "^1.0.2",
+        "drupal/console": "^1.9",
         "drupal/core": "^8.7.0",
         "drupal/email_registration": "^1.0",
         "drupal/pathauto": "^1.4",
