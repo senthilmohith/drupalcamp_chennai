@@ -4,14 +4,17 @@ schemas:
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: 'http://localhost:8090/themes/contrib/bootstrap/favicon.ico'
-  use_default: true
+  url: 'http://localhost/drupalcamp_chennai/web/themes/custom/dcc19/favicon.ico'
+  use_default: 1
 features:
-  comment_user_picture: true
-  comment_user_verification: true
-  favicon: true
-  node_user_picture: true
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+  node_user_picture: 1
 logo:
   path: ''
   url: ''
-  use_default: true
+  use_default: 1
+navbar_position: fixed-top
+reset_http_request_cache: ''
+table: ''
