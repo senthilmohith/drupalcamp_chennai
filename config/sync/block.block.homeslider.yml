@@ -1,0 +1,31 @@
+uuid: 27833b45-db40-4a46-8ace-184ac0da111b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0a77b8e5-df50-48c0-bae5-375c84637a90'
+  module:
+    - block_content
+    - system
+  theme:
+    - hcode_dcc19
+id: homeslider
+theme: hcode_dcc19
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:0a77b8e5-df50-48c0-bae5-375c84637a90'
+settings:
+  id: 'block_content:0a77b8e5-df50-48c0-bae5-375c84637a90'
+  label: 'Home Slider'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

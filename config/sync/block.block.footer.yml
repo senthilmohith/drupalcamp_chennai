@@ -1,0 +1,25 @@
+uuid: dab4e27a-4631-4473-8e21-a17b392661b6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:10c68b90-3b72-4ce2-a5d4-8039e0ca71d8'
+  module:
+    - block_content
+  theme:
+    - hcode_dcc19
+id: footer
+theme: hcode_dcc19
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:10c68b90-3b72-4ce2-a5d4-8039e0ca71d8'
+settings:
+  id: 'block_content:10c68b90-3b72-4ce2-a5d4-8039e0ca71d8'
+  label: Footer
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
