@@ -13,3 +13,9 @@ function hcode_dcc19_preprocess_page_title(&$variables) {
       $variables['title'] = '';
     }
   }
+
+function hcode_dcc19_preprocess_input(&$variables) {
+  if($variables['attributes']['type'] == "submit") {
+    array_push($variables['attributes']['class'], "highlight-button-dark");
+  }
+}
