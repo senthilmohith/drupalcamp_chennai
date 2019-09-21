@@ -21,6 +21,7 @@
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/admin_toolbar": "^1.27",
+        "drupal/backup_migrate": "^4.0",
         "drupal/bootstrap": "^3.20",
         "drupal/console": "^1.9",
         "drupal/core": "^8.7.0",
