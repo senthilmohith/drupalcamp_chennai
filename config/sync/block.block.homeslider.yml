@@ -12,7 +12,7 @@ dependencies:
 id: homeslider
 theme: hcode_dcc19
 region: highlighted
-weight: 0
+weight: -4
 provider: null
 plugin: 'block_content:0a77b8e5-df50-48c0-bae5-375c84637a90'
 settings:

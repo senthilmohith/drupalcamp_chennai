@@ -1,0 +1,16 @@
+nav.tabs {
+  float: right;
+  margin: 12px 0;
+}
+.container {
+  margin-bottom: 30px;
+}
+.page-title-small {
+  padding: 20px 0;
+}
+.captcha {
+  padding: 12px 0;
+}
+form#user-register-form {
+  margin-bottom: 10px;
+}

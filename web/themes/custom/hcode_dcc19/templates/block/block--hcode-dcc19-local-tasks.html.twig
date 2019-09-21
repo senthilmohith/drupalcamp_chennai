@@ -1,0 +1,16 @@
+{% extends "block.html.twig" %}
+{#
+/**
+ * @file
+ * Theme override for tabs.
+ */
+#}
+{% block content %}
+  {% if content %}
+    <div class="col-md-12 col-sm-12">
+      <nav class="tabs block block-menu navigation menu--account col-md-6 breadcrumb text-uppercase wow fadeInUp animated animated" role="navigation" aria-label="{{ 'Tabs'|t }}">
+        {{ content }}
+      </nav>
+    </div>
+  {% endif %}
+{% endblock %}
