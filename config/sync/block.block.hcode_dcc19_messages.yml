@@ -1,0 +1,22 @@
+uuid: 34bdb705-ed68-41e8-a0a2-105df66485d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hcode_dcc19
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: hcode_dcc19_messages
+theme: hcode_dcc19
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

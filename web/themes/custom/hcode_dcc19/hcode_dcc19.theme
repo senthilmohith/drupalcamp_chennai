@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Hcode Indiejr Films theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+function hcode_dcc19_preprocess_page_title(&$variables) {    
+    $current_path = \Drupal::service('path.current')->getPath();
+    $path_alias = \Drupal::service('path.alias_manager')->getAliasByPath($current_path);    
+    if ($path_alias == '/home') {
+      $variables['title'] = '';
+    }
+  }

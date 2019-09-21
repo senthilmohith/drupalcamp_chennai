@@ -1,0 +1,25 @@
+uuid: d6056b59-9427-4179-a2b0-1f1ce5ef078b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hcode_dcc19
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: hcode_dcc19_branding
+theme: hcode_dcc19
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

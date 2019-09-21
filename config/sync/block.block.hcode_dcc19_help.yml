@@ -1,0 +1,22 @@
+uuid: 0e11c4a3-3f8f-4cdb-a289-610ff93eba0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - hcode_dcc19
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: hcode_dcc19_help
+theme: hcode_dcc19
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

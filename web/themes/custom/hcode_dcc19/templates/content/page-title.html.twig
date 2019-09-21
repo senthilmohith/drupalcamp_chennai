@@ -1,0 +1,29 @@
+{#
+/**
+ * @file
+ * Theme override for page titles.
+ *
+ * Available variables:
+ * - title_attributes: HTML attributes for the page title element.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title: The page title, for use in the actual content.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ */
+#}
+{{ title_prefix }}
+{% if title %}  
+  <section class="content-top-margin page-title page-title-small border-bottom-light border-top-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 wow fadeInUp animated" data-wow-duration="300ms" style="visibility: visible; animation-duration: 300ms; animation-name: fadeInUp;">
+          <!-- page title -->
+          <h1 class="black-text">{{ title }}</h1>
+          <!-- end page title -->
+        </div>
+      </div>
+    </div>`
+  </section>
+{% endif %}
+{{ title_suffix }}

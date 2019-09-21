@@ -1,0 +1,20 @@
+uuid: 159a4a49-3c62-463b-a72f-a5466d1af13c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hcode_dcc19
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: hcode_dcc19_page_title
+theme: hcode_dcc19
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

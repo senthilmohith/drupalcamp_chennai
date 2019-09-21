@@ -1,0 +1,27 @@
+uuid: 862f963f-92ed-4fc6-b3ea-51208b6a56d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - hcode_dcc19
+_core:
+  default_config_hash: ChCx7DYNUrPTt5uiRdQAPDKJQMc-_SyAQTrZh8H0o-c
+id: hcode_dcc19_main_menu
+theme: hcode_dcc19
+region: navigation
+weight: -8
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

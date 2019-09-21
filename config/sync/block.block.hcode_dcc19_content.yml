@@ -1,0 +1,22 @@
+uuid: 21fce9ec-d10d-4e72-bfff-2b747b536892
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hcode_dcc19
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: hcode_dcc19_content
+theme: hcode_dcc19
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

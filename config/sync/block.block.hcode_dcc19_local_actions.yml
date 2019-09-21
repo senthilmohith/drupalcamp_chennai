@@ -1,0 +1,20 @@
+uuid: 7aad2169-aae4-4c8d-a159-cd23fb1db9d1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hcode_dcc19
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: hcode_dcc19_local_actions
+theme: hcode_dcc19
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
