@@ -1,0 +1,30 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ഫിൽറ്റർ
+          reset_button_label: പുനഃക്രമീകരണം
+      fields:
+        media_bulk_form:
+          action_title: പ്രവര്‍ത്തി
+        bundle:
+          label: തരം
+        status:
+          label: സ്ഥിതി
+          settings:
+            format_custom_true: പ്രസിദ്ധീകരിച്ചവ
+        operations:
+          label: പ്രവര്‍ത്തനങ്ങള്‍
+      filters:
+        bundle:
+          expose:
+            label: തരം
+        status:
+          group_info:
+            group_items:
+              1:
+                title: പ്രസിദ്ധീകരിച്ചവ
+        langcode:
+          expose:
+            label: ഭാഷ

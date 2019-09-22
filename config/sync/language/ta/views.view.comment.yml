@@ -21,22 +21,14 @@ display:
           action_title: செயல்
         subject:
           label: பொருள்
-          separator: ', '
-        uid:
-          separator: ', '
         name:
           label: எழுத்தாளர்
-          separator: ', '
         entity_id:
           label: பதிப்பிக்கப்பட்டது
-          separator: ', '
         changed:
           label: மாற்றப்பட்டது
-          separator: ', '
         operations:
           label: செயல்பாடுகள்
-        name_1:
-          separator: ', '
       filters:
         subject:
           expose:
@@ -74,19 +66,11 @@ display:
           action_title: செயல்
         subject:
           label: பொருள்
-          separator: ', '
-        uid:
-          separator: ', '
         name:
           label: எழுத்தாளர்
-          separator: ', '
         entity_id:
           label: பதிப்பிக்கப்பட்டது
-          separator: ', '
         changed:
           label: மாற்றப்பட்டது
-          separator: ', '
         operations:
           label: செயல்பாடுகள்
-        name_1:
-          separator: ', '

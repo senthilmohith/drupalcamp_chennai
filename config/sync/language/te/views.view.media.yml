@@ -1,0 +1,40 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: వడపోయి
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+          tags:
+            previous: '‹ మునుపటి'
+            next: 'తదుపరి ›'
+            first: '« మొదటి'
+            last: 'చివర »'
+      fields:
+        media_bulk_form:
+          action_title: చర్య
+        bundle:
+          label: రకం
+        uid:
+          label: రచయిత
+        status:
+          label: స్థితి
+          settings:
+            format_custom_false: ప్రచురింపబడనివి
+        operations:
+          label: కార్యాలు
+      filters:
+        bundle:
+          expose:
+            label: రకం
+        status:
+          group_info:
+            group_items:
+              2:
+                title: ప్రచురింపబడనివి
+        langcode:
+          expose:
+            label: భాష

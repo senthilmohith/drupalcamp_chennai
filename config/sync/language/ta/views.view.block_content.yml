@@ -16,9 +16,6 @@ display:
       fields:
         info:
           label: 'Block விளக்கம்'
-          separator: ', '
-        type:
-          separator: ', '
         changed:
           label: மாற்றப்பட்டது
         operations:

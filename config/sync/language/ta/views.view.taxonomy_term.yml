@@ -11,14 +11,10 @@ display:
         options:
           expose:
             items_per_page_options_all_label: '- அனைத்தும் -'
-          tags:
-            previous: ‹‹
-            next: ››
       arguments:
         tid:
           exception:
             title: எல்லா
-          title: '{{ arguments.tid }}'
   feed_1:
     display_title: புகட்டல்
   page_1:

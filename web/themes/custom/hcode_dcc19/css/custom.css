@@ -14,3 +14,12 @@ nav.tabs {
 form#user-register-form {
   margin-bottom: 10px;
 }
+.logo {
+  height: 50px;
+}
+nav.navbar {
+  background-color: #FFF !important;
+}
+.nav-white.sticky-nav .navbar-nav li a {
+  color: #000 !important;
+}
