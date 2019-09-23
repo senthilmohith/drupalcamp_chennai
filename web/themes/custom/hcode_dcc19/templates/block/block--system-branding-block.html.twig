@@ -20,7 +20,11 @@
         <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" class="logo"/>
       </a>
       <a class="logo-light site-logo" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
-        <img src="/themes/custom/hcode_dcc19/images/logo-black.png" alt="{{ 'Home'|t }}" class="logo" />
+        {% if is_front %}        
+          <img src="/themes/custom/hcode_dcc19/images/logo-black.png" alt="{{ 'Home'|t }}" class="logo" />          
+        {% else %}
+          <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" class="logo" />  
+        {% endif %}
       </a>
     {% endif %}
     {% if site_name %}
