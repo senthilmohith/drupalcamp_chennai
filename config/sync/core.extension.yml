@@ -31,6 +31,7 @@ module:
   language: 0
   link: 0
   locale: 0
+  media: 0
   menu_ui: 0
   node: 0
   options: 0
@@ -59,6 +60,11 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  webform: 0
+  webform_node: 0
+  webform_submission_export_import: 0
+  webform_submission_log: 0
+  webform_ui: 0
   menu_link_content: 1
   pathauto: 1
   content_translation: 10

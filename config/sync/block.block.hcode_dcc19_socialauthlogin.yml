@@ -11,7 +11,7 @@ dependencies:
 id: hcode_dcc19_socialauthlogin
 theme: hcode_dcc19
 region: content
-weight: -1
+weight: -4
 provider: null
 plugin: social_auth_login
 settings:

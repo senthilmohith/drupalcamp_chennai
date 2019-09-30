@@ -11,14 +11,9 @@ display:
         options:
           expose:
             items_per_page_options_all_label: '- அனைத்தும் -'
-          tags:
-            previous: ‹‹
-            next: ››
       fields:
         nothing:
           admin_label: குறுபடம்
-        wid:
-          label: WID
         severity:
           label: தீவிரம்
         type:
@@ -29,7 +24,6 @@ display:
           label: செய்தி
         name:
           label: பயனர்
-          separator: ', '
         link:
           label: செயல்பாடுகள்
       filters:

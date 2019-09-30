@@ -33,8 +33,6 @@ display:
           label: 'கடைசி அனுகல்'
         operations:
           label: செயல்பாடுகள்
-        mail:
-          separator: ', '
       filters:
         combine:
           expose:

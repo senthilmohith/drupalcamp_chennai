@@ -8,8 +8,8 @@ _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
 id: hcode_dcc19_page_title
 theme: hcode_dcc19
-region: content
-weight: -4
+region: highlighted
+weight: -7
 provider: null
 plugin: page_title_block
 settings:

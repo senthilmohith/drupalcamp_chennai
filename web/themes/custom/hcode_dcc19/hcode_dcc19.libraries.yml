@@ -16,6 +16,7 @@ global-styling:
       css/style.css: {}
       css/responsive.css: {}
       css/css/style-ie.css: { browsers: { IE: 'lte IE', '!IE': false } }
+      css/custom.css: {}
   js:    
     #js/js/jquery.min.js: {}
     js/modernizr.js: {}

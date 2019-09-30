@@ -23,5 +23,5 @@ regions:
 libraries:
   - hcode_dcc19/global-styling
 
-logo: images/logo-light.png
+logo: images/logo.png
 screenshot: sceenshot.jpg

@@ -13,3 +13,23 @@ function hcode_dcc19_preprocess_page_title(&$variables) {
       $variables['title'] = '';
     }
   }
+
+function hcode_dcc19_preprocess_input(&$variables) {
+  if($variables['attributes']['type'] == "submit") {
+    array_push($variables['attributes']['class'], "highlight-button-dark");
+  }
+}
+
+function hcode_dcc19_preprocess_block__system_branding_block(&$variables) {
+  // An exception might be thrown.
+  try {
+    $variables['is_front'] = \Drupal::service('path.matcher')->isFrontPage();
+  } catch (Exception $e) {
+
+    // If the database is not yet available, set default values for these
+    // variables.
+    $variables['is_front'] = FALSE;    
+  }
+  // or prevent caching all page
+  $variables['#cache']['max-age'] = 0;
+}
