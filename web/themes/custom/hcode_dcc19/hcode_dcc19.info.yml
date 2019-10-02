@@ -19,6 +19,7 @@ regions:
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
+  hidden_region: 'Hidden'
 
 libraries:
   - hcode_dcc19/global-styling

@@ -10,7 +10,10 @@ function ScrollStart() {
     return true;
 }
 
-$(document).ready(function () {
+//$(document).ready(function () {
+    (function ($, Drupal) {
+        Drupal.behaviors.myModuleBehavior = {
+          attach: function (context, settings) {    
     var isMobile = false;
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         isMobile = true;
@@ -286,5 +289,6 @@ $(document).ready(function () {
     /*==============================================================*/
     //Modal popup - zoom animation - END CODE
     /*==============================================================*/
-
-});
+}
+};
+})(jQuery, Drupal);

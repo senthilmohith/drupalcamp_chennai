@@ -21,29 +21,33 @@
  * @ingroup themeable
  */
 #}
-<div data-drupal-messages>
-{% for type, messages in message_list %}
-  <div role="contentinfo" aria-label="{{ status_headings[type] }}"{{ attributes|without('role', 'aria-label') }}>
-    {% if type == 'error' %}
-      <div role="alert" class="messages">
-    {% endif %}
-    {% if status_headings[type] %}
-      <h2 class="visually-hidden">{{ status_headings[type] }}</h2>
-    {% endif %}
-    {% if messages|length > 1 %}
-      <ul>
-        {% for message in messages %}
-          <li>{{ message }}</li>
+<section class="wow fadeIn padding-two margin-two">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-10 center-col alert-style5">
+        {% for type, messages in message_list %}
+          <div role="alert" aria-label="{{ status_headings[type] }}"{{ attributes|without('role', 'aria-label') }}>
+            {% if type == 'error' %}
+              <div class="alert alert-danger fade in" role="alert">                            
+            {% endif %}
+            {% if status_headings[type] %}
+              <h2 class="visually-hidden">{{ status_headings[type] }}</h2>
+            {% endif %}
+            {% if messages|length > 1 %}
+              <ul>
+                {% for message in messages %}
+                  <li>{{ message }}</li>
+                {% endfor %}
+              </ul>
+            {% else %}            
+              {{ messages|first }}            
+            {% endif %}
+            {% if type == 'error' %}
+              </div>
+            {% endif %}
+          </div>
         {% endfor %}
-      </ul>
-    {% else %}
-    <div class="message">
-      {{ messages|first }}
-    </div>
-    {% endif %}
-    {% if type == 'error' %}
       </div>
-    {% endif %}
+    </div>
   </div>
-{% endfor %}
-</div>
+</section>

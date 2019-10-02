@@ -35,6 +35,7 @@
         "drupal/social_auth_google": "^2.0",
         "drupal/social_auth_linkedin": "^2.0",
         "drupal/social_auth_twitter": "^2.0",
+        "drupal/twig_tweak": "^2.4",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",

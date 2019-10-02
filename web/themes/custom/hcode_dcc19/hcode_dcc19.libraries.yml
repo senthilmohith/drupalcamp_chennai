@@ -46,4 +46,6 @@ global-styling:
     js/main.js: {}
     js/html5shiv.js: { browsers: { IE: 'lte IE', '!IE': false } }
   dependencies:
+    - core/drupal
     - core/jquery
+    - core/jquery.once

@@ -91,3 +91,8 @@
   <a href="javascript:;" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
   <!-- scroll to top End... -->
 </footer>
+{% if page.hidden_region %}
+<div class="visually-hidden">
+  {{ page.hidden_region }}
+  </div>
+{% endif %}

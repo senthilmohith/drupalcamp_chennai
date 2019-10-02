@@ -8,8 +8,8 @@ _core:
   default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
 id: hcode_dcc19_local_tasks
 theme: hcode_dcc19
-region: highlighted
-weight: -5
+region: hidden_region
+weight: -6
 provider: null
 plugin: local_tasks_block
 settings:

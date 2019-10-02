@@ -5,7 +5,9 @@ var $portfolio_selectors_li;
 var $blog;
 var hashfilter;
 
-$(document).ready(function () {
+(function ($, Drupal) {
+    Drupal.behaviors.mynewModuleBehavior = {
+      attach: function (context, settings) {  
 
     // Show Animated Counters
     animatecounters();
@@ -1500,55 +1502,7 @@ $(document).ready(function () {
             .click(function (e) {
                     $('#close-button').click();
             });
-});
 
-    function animatecounters() {
-    
-    /*==============================================================*/
-    //Counter Number - START CODE
-    /*==============================================================*/
-
-    $('.timer').each(count);
-        function count(options) {
-            var $this = $(this);
-            options = $.extend({}, options || {}, $this.data('countToOptions') || {});
-            $this.countTo(options);
-        }
-    /*==============================================================*/
-    //Counter Number - END CODE
-    /*==============================================================*/
-    
-    }
-
-var inViewchart = false;
-var inViewanimnumberpizza = false;
-var inViewanimnumberclient = false;
-var inViewanimnumberprojects = false;
-var inViewanimnumbercomments = false;
-var inViewcounter1 = false;
-var inViewcounter2 = false;
-var inViewcounter3 = false;
-var inViewcounter4 = false;
-var inViewcounter5 = false;
-var inViewcounter6 = false;
-var inViewcounter7 = false;
-
-function isScrolledIntoView(elem) {
-    try {
-        var docViewTop = $(window).scrollTop();
-        var docViewBottom = docViewTop + $(window).height();
-
-        var elemTop = $(elem).offset().top;
-        var elemBottom = elemTop + $(elem).height();
-
-        return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
-    }
-    catch (ex) {
-        return false;
-    }
-
-
-}
 
 
 
@@ -1842,3 +1796,58 @@ $(document).ready(function () {
         }
     });
 });
+
+function animatecounters() {
+    
+    /*==============================================================*/
+    //Counter Number - START CODE
+    /*==============================================================*/
+
+    $('.timer').each(count);
+        function count(options) {
+            var $this = $(this);
+            options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+            $this.countTo(options);
+        }
+    /*==============================================================*/
+    //Counter Number - END CODE
+    /*==============================================================*/
+    
+    }
+
+        }
+    };
+    })(jQuery, Drupal);
+
+    
+
+var inViewchart = false;
+var inViewanimnumberpizza = false;
+var inViewanimnumberclient = false;
+var inViewanimnumberprojects = false;
+var inViewanimnumbercomments = false;
+var inViewcounter1 = false;
+var inViewcounter2 = false;
+var inViewcounter3 = false;
+var inViewcounter4 = false;
+var inViewcounter5 = false;
+var inViewcounter6 = false;
+var inViewcounter7 = false;
+
+function isScrolledIntoView(elem) {
+    try {
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop + $(elem).height();
+
+        return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
+    }
+    catch (ex) {
+        return false;
+    }
+
+
+}
+
