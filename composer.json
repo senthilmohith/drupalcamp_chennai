@@ -24,6 +24,7 @@
         "drupal/backup_migrate": "^4.0",
         "drupal/bootstrap": "^3.20",
         "drupal/console": "^1.9",
+        "drupal/contact_block": "^1.4",
         "drupal/core": "^8.7.0",
         "drupal/email_registration": "^1.0",
         "drupal/pathauto": "^1.4",
