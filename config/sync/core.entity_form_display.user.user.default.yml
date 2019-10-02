@@ -25,23 +25,18 @@ bundle: user
 mode: default
 content:
   account:
-    weight: -10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  contact:
-    weight: 5
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
   field_designation:
-    weight: 9
+    weight: 4
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_drupal_org_profile:
-    weight: 10
+    weight: 7
     settings:
       placeholder_url: ''
       placeholder_title: ''
@@ -49,7 +44,7 @@ content:
     type: link_default
     region: content
   field_full_name:
-    weight: 7
+    weight: 1
     settings:
       size: 60
       placeholder: ''
@@ -57,7 +52,7 @@ content:
     type: string_textfield
     region: content
   field_location_city:
-    weight: 12
+    weight: 5
     settings:
       size: 60
       placeholder: ''
@@ -65,14 +60,14 @@ content:
     type: string_textfield
     region: content
   field_mobile_number:
-    weight: 13
+    weight: 2
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: telephone_default
     region: content
   field_organization_college:
-    weight: 8
+    weight: 3
     settings:
       size: 60
       placeholder: ''
@@ -80,24 +75,18 @@ content:
     type: string_textfield
     region: content
   field_types_of_business:
-    weight: 11
+    weight: 6
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   language:
-    weight: 0
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  path:
-    type: path
-    weight: 30
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
   timezone:
-    weight: 6
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -107,7 +96,9 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-    weight: -1
+    weight: 8
     region: content
 hidden:
+  contact: true
   langcode: true
+  path: true

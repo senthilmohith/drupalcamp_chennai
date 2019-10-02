@@ -42,12 +42,6 @@ content:
     third_party_settings: {  }
     type: telephone_default
     region: content
-  path:
-    type: path
-    weight: 30
-    region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   contact: true
   field_designation: true
@@ -57,5 +51,6 @@ hidden:
   field_types_of_business: true
   langcode: true
   language: true
+  path: true
   timezone: true
   user_picture: true

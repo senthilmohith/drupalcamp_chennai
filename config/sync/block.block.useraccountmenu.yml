@@ -1,0 +1,25 @@
+uuid: 50e96981-06e4-49ae-b731-0e3c5f84d064
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - hcode_dcc19
+id: useraccountmenu
+theme: hcode_dcc19
+region: navigation
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
