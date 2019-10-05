@@ -140,7 +140,7 @@ h1.page-title { margin:95px auto 0; width: 100%; }
 .orange-light-text{ color:#ef824c !important}
 .deep-red-text{ color:#e75e50 !important}
 .black-text{ color:#000 !important}
-.yellow-text{ color:#e6af2a !important}
+.yellow-text{ color:#ffc050 !important}
 .yellow-light-text{color: #ffd200 !important}
 .fast-yellow-text{ color:#f7d23d !important}
 .pink-text{ color:#d9378e !important}
@@ -194,7 +194,7 @@ i { color: #9a9a9a; margin: 0 3px}
 ====================================== */
 
 .bg-white{ background: #fff !important;}
-.bg-yellow{ background: #e6af2a !important; }
+.bg-yellow{ background: #ffc050 !important; }
 .bg-deep-yellow{ background: #f7f5e7 !important; }
 .bg-golden-yellow{ background: #c3bd86 !important; }
 .bg-fast-yellow{ background: #fdd947 !important; }
@@ -427,13 +427,13 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
 .shrink-nav .container { height: 60px; }
 .shrink-nav { background-color:#FFF; }
 .sticky-nav{ position: fixed; top: 0px; display: inline-table;}
-.logo { max-width: 109px; }
+.logo { max-width: 95px; margin: 6px 0 6px;}
 .logo-style-2 { max-width: 177px; }
 .logo-style-3 { max-width: 210px; }
-.sticky-nav .logo-light { height: 55px; vertical-align: middle; display: table-cell;}
+.sticky-nav .logo-light {vertical-align: middle; display: table-cell;}
 .shrink-nav .logo-light { opacity: 0; display: none}
 .sticky-nav .logo-dark {opacity: 0; display: none}
-.shrink-nav .logo-dark { height: 55px; vertical-align: middle; display: table-cell; opacity: 1}
+.shrink-nav .logo-dark {vertical-align: middle; display: table-cell; opacity: 1}
 .mega-menu-full .mega-menu-column { margin: 0; }
 .navbar-nav li a.active { border-bottom:2px solid #000}
 .nav-white-bg { background-color:#fff !important;}
@@ -601,7 +601,7 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
 ====================================== */
 
 /* page titles */
-.content-top-margin { margin-top: 81px;}
+.content-top-margin { margin-top: 108px;}
 .page-title { padding: 80px 0}
 .page-title h1 { letter-spacing: 6px; font-weight: 600; font-size: 20px; margin-bottom: 5px}
 /*.page-title span {letter-spacing: 1px; font-weight: 400; font-size: 14px;}*/
@@ -618,9 +618,9 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
 .page-title-shop h1 { font-size:35px !important;}
 
 /* page titels small */
-.page-title-small { padding: 40px 0 }
+.page-title-small { padding: 40px 0; }
 .page-title-small h1 { margin-bottom: 0; font-size: 18px; line-height: 23px}
-.page-title-small .breadcrumb { margin-top:0; }
+.page-title-small .breadcrumb { margin-top:0; text-align: right; }
 
 /* ===================================
     Section
@@ -1373,13 +1373,13 @@ figure:hover img { -ms-transform: scale(1.1,1.1); -webkit-transform: scale(1.1,1
 .btn.btn-small { font-size: 11px; padding: 2px 14px; letter-spacing:1px}
 .btn.btn-very-small {font-size: 9px; padding: 1px 12px; letter-spacing:1px}
 
-.highlight-button { border:2px solid #000; display: inline-block; padding: 8px 20px 9px; font-size: 12px; color:#000; background-color: transparent;   }
-.highlight-button:hover { background-color: #000; border: 2px solid #000; color:#fff}
-.highlight-button i { color: #000}
+.highlight-button { border:2px solid #d86c56; display: inline-block; padding: 8px 20px 9px; font-size: 12px; color:#d86c56; background-color: transparent;   }
+.highlight-button:hover { background-color: #d86c56; border: 2px solid #d86c56; color:#fff}
+.highlight-button i { color: #d86c56}
 .highlight-button:hover i {color:#fff}
 
-.highlight-button-dark { border:2px solid #000; display: inline-block; padding: 8px 20px 9px; font-size: 12px; color:#fff; background-color: #000;  }
-.highlight-button-dark:hover { background-color: transparent; border: 2px solid #000; color:#000}
+.highlight-button-dark { border:2px solid #d86c56; display: inline-block; padding: 8px 20px 9px; font-size: 12px; color:#fff; background-color: #d86c56;  }
+.highlight-button-dark:hover { background-color: transparent; border: 2px solid #d86c56; color:#d86c56}
 .highlight-button-dark i { color: #fff}
 .highlight-button-dark:hover i {color:#000}
 

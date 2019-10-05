@@ -7,6 +7,11 @@ nav.tabs {
 }
 .page-title-small {
   padding: 20px 0;
+  margin-bottom: 20px;
+}
+.page-title-small .container,
+.footer-top .container {
+  margin-bottom: 0;
 }
 .captcha {
   padding: 12px 0;
@@ -51,4 +56,104 @@ nav.tabs {
 .message {
   padding-left: 16px;
 }
+}
+
+/**
+ * Header
+*/
+.lang-swtc {
+  margin: 10px 15px 8px 0;
+  font-size: 0.923em;
+}
+
+.lang-swtc .links li {
+  display: inline;
+  margin: 0 0 0 20px;
+}
+
+.lang-swtc .links li.is-active a {
+  color: #575757;
+}
+
+.nav-white.sticky-nav .lang-swtc .links a {
+  color: #fff;
+}
+
+.nav-white.sticky-nav .lang-swtc .links a:hover, .nav-white.sticky-nav .lang-swtc .links li.is-active a {
+  color: #ccc;
+}
+
+.shrink-nav.nav-white.sticky-nav .lang-swtc .links a {
+  color: #000;
+}
+
+.shrink-nav.nav-white.sticky-nav .lang-swtc .links a:hover, .shrink-nav.nav-white.sticky-nav .lang-swtc .links li.is-active a {
+  color: #575757;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav.navbar-right:last-child {
+    margin-right: -5px;
+  }
+}
+.navbar-toggle {
+  margin-top: 34px;
+}
+
+/**
+ * Form
+*/
+.form-actions {
+  margin: 20px 0;
+}
+
+input + .description, textarea + .description, select + .description {
+  margin: -15px 0 20px;
+}
+
+.user-pass, .user-register-form, .user-login-form {
+  max-width: 40em;
+}
+
+/**
+ * Footer
+.foot-mid-wrp {
+  background: url('../banner/footer4.jpg') no-repeat center top;
+  background-size: cover;
+  position: relative;
+}
+
+.foot-mid-wrp::before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: #fff;
+  opacity: 0.8;
+}
+
+.foot-mid-wrp .container {
+  margin-bottom: 0;
+}
+*/
+
+.no-fx {
+  background-attachment: scroll !important;
+}
+
+@media(min-width: 768px) {
+  .copyright {
+    margin-top: 22px;
+  }
+}
+
+.footer-bottom .container {
+  margin-bottom: 0;
+}
+
+.footer-logo img {
+  max-width: 70px;
 }
