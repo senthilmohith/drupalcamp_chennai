@@ -1,0 +1,22 @@
+uuid: da7513c9-cd73-4290-901b-fcd077bfa7e2
+langcode: ta
+status: true
+dependencies:
+  config:
+    - media.type.image
+id: media.image.status
+field_name: status
+entity_type: media
+bundle: image
+label: வெளியிடப்பட்டது
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

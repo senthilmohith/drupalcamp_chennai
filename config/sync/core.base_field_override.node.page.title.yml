@@ -1,0 +1,18 @@
+uuid: a7848d33-19eb-45aa-a2e6-fb1aa667d20b
+langcode: ta
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.title
+field_name: title
+entity_type: node
+bundle: page
+label: தலைப்பு
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

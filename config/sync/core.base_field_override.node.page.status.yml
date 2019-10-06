@@ -1,0 +1,22 @@
+uuid: b59bcf6d-078e-4081-96a2-c43e1e80b0d6
+langcode: ta
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.status
+field_name: status
+entity_type: node
+bundle: page
+label: வெளியிடப்பட்டது
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: efac063b-3178-4e76-83c9-039c57abc19e
+langcode: ta
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.title
+field_name: title
+entity_type: node
+bundle: article
+label: தலைப்பு
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

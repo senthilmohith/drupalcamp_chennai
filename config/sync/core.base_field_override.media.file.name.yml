@@ -1,0 +1,20 @@
+uuid: 437e3f07-f4e8-4b1f-b6d4-500a5c673029
+langcode: ta
+status: true
+dependencies:
+  config:
+    - media.type.file
+id: media.file.name
+field_name: name
+entity_type: media
+bundle: file
+label: பெயர்
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

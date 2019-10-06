@@ -58,6 +58,9 @@ display:
         subject:
           expose:
             label: பொருள்
+        combine:
+          expose:
+            label: 'ஆசிரியர் பெயர்'
         langcode:
           expose:
             label: மொழி

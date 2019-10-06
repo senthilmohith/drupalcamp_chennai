@@ -1,3 +1,11 @@
+.user-register-form {
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 25px 56px 0px #99e2ff;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding: 50px;
+}
 nav.tabs {
   float: right;
   margin: 12px 0;

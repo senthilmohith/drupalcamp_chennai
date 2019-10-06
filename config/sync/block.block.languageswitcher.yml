@@ -1,0 +1,24 @@
+uuid: bd25ee88-7639-4d2e-aaf5-8297865cd570
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - language
+  theme:
+    - hcode_dcc19
+third_party_settings:
+  block_class:
+    classes: lang-swtc
+id: languageswitcher
+theme: hcode_dcc19
+region: navigation
+weight: -8
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility: {  }

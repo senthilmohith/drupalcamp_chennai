@@ -4,6 +4,7 @@ module:
   backup_migrate: 0
   big_pipe: 0
   block: 0
+  block_class: 0
   block_content: 0
   breakpoint: 0
   captcha: 0
@@ -59,6 +60,7 @@ module:
   token: 0
   toolbar: 0
   tour: 0
+  translatable_menu_link_uri: 0
   twig_tweak: 0
   update: 0
   user: 0

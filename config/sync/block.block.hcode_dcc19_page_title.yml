@@ -2,6 +2,8 @@ uuid: 159a4a49-3c62-463b-a72f-a5466d1af13c
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - hcode_dcc19
 _core:
@@ -17,4 +19,9 @@ settings:
   label: 'Page title'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

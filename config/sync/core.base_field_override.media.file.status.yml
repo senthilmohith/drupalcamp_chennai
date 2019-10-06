@@ -1,0 +1,22 @@
+uuid: c911f85f-9928-4cdf-82c0-b8b6ebc87578
+langcode: ta
+status: true
+dependencies:
+  config:
+    - media.type.file
+id: media.file.status
+field_name: status
+entity_type: media
+bundle: file
+label: வெளியிடப்பட்டது
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

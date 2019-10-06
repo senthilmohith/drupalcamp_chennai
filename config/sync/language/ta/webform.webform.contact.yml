@@ -1,0 +1,5 @@
+handlers:
+  email_confirmation:
+    label: 'மின்னஞ்சல் உறுதிப்படுத்தல்'
+  email_notification:
+    label: 'மின்னஞ்சல் அறிவிப்பு'

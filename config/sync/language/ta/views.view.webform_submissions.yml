@@ -1,0 +1,43 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: விண்ணப்பி
+          reset_button_label: மீளமை
+          exposed_sorts_label: வரிசையாக
+      pager:
+        options:
+          tags:
+            first: '« முதல்'
+            last: 'கடந்த »'
+          expose:
+            items_per_page_options_all_label: '- அனைத்தும் -'
+      fields:
+        view_webform_submission:
+          label: செயல்பாடுகள்
+      arguments:
+        in_draft:
+          exception:
+            title: எல்லா
+  embed_administer:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: செயல்
+        operations:
+          label: செயல்பாடுகள்
+  embed_manage:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: செயல்
+        view_webform_submission:
+          label: செயல்பாடுகள்
+        edit_webform_submission:
+          label: செயல்பாடுகள்
+  embed_review:
+    display_options:
+      fields:
+        view_webform_submission:
+          label: செயல்பாடுகள்

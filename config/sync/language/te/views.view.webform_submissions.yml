@@ -1,0 +1,41 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ఆపాదించు
+      pager:
+        options:
+          tags:
+            first: '« మొదటి'
+            last: 'చివర »'
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+      fields:
+        view_webform_submission:
+          label: కార్యాలు
+      arguments:
+        in_draft:
+          exception:
+            title: అన్నీ
+  embed_administer:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: చర్య
+        operations:
+          label: కార్యాలు
+  embed_manage:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: చర్య
+        view_webform_submission:
+          label: కార్యాలు
+        edit_webform_submission:
+          label: కార్యాలు
+  embed_review:
+    display_options:
+      fields:
+        view_webform_submission:
+          label: కార్యాలు

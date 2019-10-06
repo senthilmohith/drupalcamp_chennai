@@ -1,0 +1,20 @@
+uuid: 6bc96bc3-96b2-43ff-8070-3d33e1e13c5b
+langcode: ta
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - path
+id: node.article.path
+field_name: path
+entity_type: node
+bundle: article
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,4 +1,3 @@
-label: ప్రజలు
 display:
   default:
     display_options:
@@ -15,31 +14,13 @@ display:
           expose:
             items_per_page_options_all_label: '- అన్ని -'
       fields:
-        name:
-          label: 'వాడుకరి పేరు'
         status:
           label: స్థితి
-        roles_target_id:
-          label: పాత్రలు
-        created:
-          label: సభ్యుడుగా
-        access:
-          label: 'చివరి దర్శనం'
         operations:
           label: కార్యాలు
       filters:
         status:
           group_info:
             label: స్థితి
-        permission:
-          expose:
-            label: అనుమతి
-      title: ప్రజలు
-      use_more_text: మరిన్ని
   page_1:
     display_title: పేజీ
-    display_options:
-      menu:
-        title: జాబితా
-      tab_options:
-        title: ప్రజలు

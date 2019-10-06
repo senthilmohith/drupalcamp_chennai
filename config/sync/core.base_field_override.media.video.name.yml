@@ -1,0 +1,20 @@
+uuid: be42a114-3c5e-4656-922d-16ca1c4ec04d
+langcode: ta
+status: true
+dependencies:
+  config:
+    - media.type.video
+id: media.video.name
+field_name: name
+entity_type: media
+bundle: video
+label: பெயர்
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,18 @@
+uuid: 62a5d40a-45b7-4f40-983e-3b5e3ccfc757
+langcode: ta
+status: true
+dependencies:
+  config:
+    - media.type.file
+id: media.file.changed
+field_name: changed
+entity_type: media
+bundle: file
+label: Changed
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed
