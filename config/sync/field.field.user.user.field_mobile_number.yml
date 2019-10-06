@@ -6,7 +6,13 @@ dependencies:
     - field.storage.user.field_mobile_number
   module:
     - telephone
+    - telephone_validation
     - user
+third_party_settings:
+  telephone_validation:
+    format: 2
+    country:
+      - IN
 id: user.user.field_mobile_number
 field_name: field_mobile_number
 entity_type: user
