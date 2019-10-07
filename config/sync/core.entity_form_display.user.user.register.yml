@@ -8,10 +8,12 @@ dependencies:
     - field.field.user.user.field_drupal_org_profile
     - field.field.user.user.field_full_name
     - field.field.user.user.field_location_city
+    - field.field.user.user.field_mobile_number
     - field.field.user.user.field_organization_college
     - field.field.user.user.field_types_of_business
     - field.field.user.user.user_picture
   module:
+    - telephone
     - user
 _core:
   default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
@@ -33,11 +35,18 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
+  field_mobile_number:
+    type: telephone_default
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
   translation:
-    weight: 10
+    weight: 3
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   contact: true
   field_designation: true
