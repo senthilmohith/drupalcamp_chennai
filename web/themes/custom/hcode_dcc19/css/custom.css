@@ -168,7 +168,7 @@ input + .description, textarea + .description, select + .description {
 
 
 /*User registeration form*/
-.user-register-form, .user-login-form {
+.user-register-form, .user-login-form, .user-passs {
     box-shadow: 0 0 30px 3px #efefef;
     margin: 50px auto !important;
     padding: 50px;
@@ -177,8 +177,12 @@ input + .description, textarea + .description, select + .description {
     font-style: italic;
     font-size: 12px;
 }
-.user-register-form + h2, .user-login-form + h2 {
+.user-register-form + h2, .user-login-form + h2, .user-pass + h2 {
     margin: 15px 0;
     text-transform: capitalize;
     font-weight: 400;
+    text-align: center;
+}
+.social-wrp {
+    text-align: center;
 }
