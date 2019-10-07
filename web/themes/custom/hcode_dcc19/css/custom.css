@@ -189,3 +189,8 @@ input + .description, textarea + .description, select + .description {
 .page-title-small {
   margin-bottom: 0 !important;
 }
+.about img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
