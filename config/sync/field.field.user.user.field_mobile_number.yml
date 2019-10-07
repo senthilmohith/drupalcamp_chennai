@@ -1,0 +1,27 @@
+uuid: 684c104c-f4ce-459e-9e4b-5912283a4258
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_mobile_number
+  module:
+    - telephone
+    - telephone_validation
+    - user
+third_party_settings:
+  telephone_validation:
+    format: 2
+    country:
+      - IN
+id: user.user.field_mobile_number
+field_name: field_mobile_number
+entity_type: user
+bundle: user
+label: 'Mobile Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

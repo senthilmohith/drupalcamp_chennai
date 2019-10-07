@@ -7,6 +7,7 @@ dependencies:
     - field.field.user.user.field_drupal_org_profile
     - field.field.user.user.field_full_name
     - field.field.user.user.field_location_city
+    - field.field.user.user.field_mobile_number
     - field.field.user.user.field_organization_college
     - field.field.user.user.field_types_of_business
     - field.field.user.user.user_picture
@@ -57,6 +58,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_mobile_number:
+    weight: 12
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
     region: content
   field_organization_college:
     weight: 7
