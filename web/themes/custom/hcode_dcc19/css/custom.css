@@ -187,9 +187,12 @@ input + .description, textarea + .description, select + .description {
     padding: 10px;
   }
 }
-input + .description, textarea + .description, select + .description, .webform-submission-form .form-item-markup {
+input + .description, textarea + .description, select + .description, .page-node-type-webform .field--name-body p {
     font-style: italic;
     font-size: 12px;
+}
+.page-node-type-webform .field--name-body p {
+    margin: 30px 10px 0 !important;
 }
 .user-register-form + h2, .user-login-form + h2, .user-pass + h2 {
     margin: 15px 0;
