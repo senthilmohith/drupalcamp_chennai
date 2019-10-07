@@ -165,3 +165,20 @@ input + .description, textarea + .description, select + .description {
 .footer-logo img {
   max-width: 70px;
 }
+
+
+/*User registeration form*/
+.user-register-form {
+    box-shadow: 0 0 30px 3px #efefef;
+    margin: 50px auto !important;
+    padding: 50px;
+}
+input + .description, textarea + .description, select + .description {
+    font-style: italic;
+    font-size: 12px;
+}
+.user-register-form + h2 {
+    margin: 15px 0;
+    text-transform: capitalize;
+    font-weight: 400;
+}
