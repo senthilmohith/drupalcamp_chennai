@@ -168,21 +168,21 @@ input + .description, textarea + .description, select + .description {
 
 
 /*User registeration form*/
-.user-register-form, .user-login-form, .user-pass, .webform-submission-add-form {
+.user-register-form, .user-login-form, .user-pass, .webform-submission-add-form, .contact-message-form {
     box-shadow: 0 0 30px 3px #efefef;
     margin: 50px auto !important;
     padding: 50px;
 }
-.webform-submission-add-form {
+.webform-submission-add-form, .contact-message-form {
   width: 50%;
 }
 @media screen and (max-width: 991px) {
-  .webform-submission-add-form {
+  .webform-submission-add-form, .contact-message-form {
     width: 75%;
   }
 }
 @media screen and (max-width: 767px) {
-  .webform-submission-add-form {
+  .webform-submission-add-form , .contact-message-form{
     width: 100%;
     padding: 10px;
   }
