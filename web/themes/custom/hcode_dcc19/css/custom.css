@@ -240,3 +240,8 @@ input + .description, textarea + .description, select + .description {
     padding: 10px;
     margin: 5px 0;
 }
+
+.alert-danger {
+    background-color: #f2dede !important;
+    margin: 0 !important;
+}
