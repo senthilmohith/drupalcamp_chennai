@@ -1,0 +1,31 @@
+uuid: 8db4e0f5-9602-468f-99ec-8fc898d1c724
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8f7f0770-0bae-4aec-ab29-236dcec67d5c'
+  module:
+    - block_content
+    - system
+  theme:
+    - hcode_dcc19
+id: sponsorus
+theme: hcode_dcc19
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:8f7f0770-0bae-4aec-ab29-236dcec67d5c'
+settings:
+  id: 'block_content:8f7f0770-0bae-4aec-ab29-236dcec67d5c'
+  label: 'Sponsor Us'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
