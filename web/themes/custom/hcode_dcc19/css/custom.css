@@ -214,9 +214,9 @@ input + .description, textarea + .description, select + .description {
 }
 .webform-confirmation {
     width: 1170px;
-    margin: 0 auto 50px;
+    margin: 6px auto 50px;
     padding: 40px 20px 20px!important;
-    text-align: center;
+    text-align: left;
     color: #3c763d;
     border: 1px solid #3c763d29 !important;
     background: #07fb0b0f;
