@@ -186,3 +186,6 @@ input + .description, textarea + .description, select + .description {
 .social-wrp {
     text-align: center;
 }
+.page-title-small {
+  margin-bottom: 0 !important;
+}
