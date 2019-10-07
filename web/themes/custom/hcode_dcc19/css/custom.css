@@ -226,3 +226,10 @@ input + .description, textarea + .description, select + .description {
     width: 100%;
   }
 }
+.form-item--error-message {
+    color: #a94442;
+    background: #a9444212;
+    border: 1px solid #f9f2f1;
+    padding: 10px;
+    margin: 5px 0;
+}
