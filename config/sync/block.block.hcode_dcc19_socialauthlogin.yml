@@ -3,11 +3,15 @@ langcode: en
 status: true
 dependencies:
   module:
+    - block_class
     - social_auth
     - system
     - user
   theme:
     - hcode_dcc19
+third_party_settings:
+  block_class:
+    classes: login-via-exsisting
 id: hcode_dcc19_socialauthlogin
 theme: hcode_dcc19
 region: content
