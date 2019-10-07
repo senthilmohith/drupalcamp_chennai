@@ -168,7 +168,7 @@ input + .description, textarea + .description, select + .description {
 
 
 /*User registeration form*/
-.user-register-form, .user-login-form, .user-passs {
+.user-register-form, .user-login-form, .user-pass {
     box-shadow: 0 0 30px 3px #efefef;
     margin: 50px auto !important;
     padding: 50px;
