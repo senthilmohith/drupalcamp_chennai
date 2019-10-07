@@ -168,12 +168,26 @@ input + .description, textarea + .description, select + .description {
 
 
 /*User registeration form*/
-.user-register-form, .user-login-form, .user-pass {
+.user-register-form, .user-login-form, .user-pass, .webform-submission-add-form {
     box-shadow: 0 0 30px 3px #efefef;
     margin: 50px auto !important;
     padding: 50px;
 }
-input + .description, textarea + .description, select + .description {
+.webform-submission-add-form {
+  width: 50%;
+}
+@media screen and (max-width: 991px) {
+  .webform-submission-add-form {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .webform-submission-add-form {
+    width: 100%;
+    padding: 10px;
+  }
+}
+input + .description, textarea + .description, select + .description, .webform-submission-form .form-item-markup {
     font-style: italic;
     font-size: 12px;
 }
@@ -194,4 +208,11 @@ input + .description, textarea + .description, select + .description {
     height: 200px;
     object-fit: cover;
     margin: 15px 0;
+}
+.webform-confirmation {
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+    color: #3c763d;
+    border: none !important;
 }
