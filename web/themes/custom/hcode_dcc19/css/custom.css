@@ -173,6 +173,13 @@ input + .description, textarea + .description, select + .description {
     margin: 50px auto !important;
     padding: 50px;
 }
+form#contact-message-feedback-form {
+     box-shadow: 0 0 30px 3px #efefef;
+    margin: auto !important;
+    padding: 50px;
+    background: #fff;
+    width: 75%;
+}
 .webform-submission-add-form, .contact-message-form {
   width: 50%;
 }
@@ -182,7 +189,7 @@ input + .description, textarea + .description, select + .description {
   }
 }
 @media screen and (max-width: 767px) {
-  .webform-submission-add-form , .contact-message-form{
+  .webform-submission-add-form , .contact-message-form, form#contact-message-feedback-form {
     width: 100%;
     padding: 10px;
   }
