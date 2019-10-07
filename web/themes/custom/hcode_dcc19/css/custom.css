@@ -187,7 +187,7 @@ input + .description, textarea + .description, select + .description {
     padding: 10px;
   }
 }
-input + .description, textarea + .description, select + .description, .page-node-type-webform .field--name-body p {
+input + .description, textarea + .description, select + .description {
     font-style: italic;
     font-size: 12px;
 }
@@ -214,8 +214,10 @@ input + .description, textarea + .description, select + .description, .page-node
 }
 .webform-confirmation {
     width: 1170px;
-    margin: auto;
+    margin: 0 auto 50px;
+    padding: 40px 20px 20px!important;
     text-align: center;
     color: #3c763d;
-    border: none !important;
+    border: 1px solid #3c763d29 !important;
+    background: #07fb0b0f;
 }
