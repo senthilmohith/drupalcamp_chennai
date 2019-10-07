@@ -221,3 +221,8 @@ input + .description, textarea + .description, select + .description {
     border: 1px solid #3c763d29 !important;
     background: #07fb0b0f;
 }
+@media screen and (max-width: 1199px) {
+  .webform-confirmation {
+    width: 100%;
+  }
+}
