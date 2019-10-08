@@ -194,7 +194,7 @@ handlers:
       from_options: {  }
       from_name: _default
       subject: 'Thank you'
-      body: "Hi [webform_submission:values:name],<br />\r\n<br />\r\nThank you very much for your interest to sponsoring and part of the DrupalCamp Chennai Community 2019.&nbsp;We can&rsquo;t do these events without your help!&nbsp;<br />\r\n<br />\r\nWe will contact you soon for your assistance and support.<br />\r\n<br />\r\nThank you!<br />\r\n<br />\r\nDrupalCamp Chennai Team<br />\r\n&nbsp;"
+      body: "Hi [webform_submission:values:name],<br />\r\n<br />\r\nThank you very much for your interest to sponsoring and part of the DrupalCamp Chennai Community 2019.&nbsp;We can&rsquo;t do these events without your help!&nbsp;<br />\r\n<br />\r\nWe will contact you soon for your assistance and support.<br />\r\n<br />\r\nThank you!<br />\r\n<br />\r\n-- DrupalCamp Chennai Team<br />\r\n&nbsp;"
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true
