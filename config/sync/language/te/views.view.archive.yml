@@ -8,5 +8,8 @@ display:
         options:
           expose:
             items_per_page_options_all_label: '- అన్ని -'
+          tags:
+            previous: ‹‹
+            next: ››
   page_1:
     display_title: పేజీ

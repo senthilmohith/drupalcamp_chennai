@@ -4,3 +4,7 @@ display:
       exposed_form:
         options:
           submit_button: ఆపాదించు
+      filters:
+        access:
+          expose:
+            label: 'చివరి దర్శనం'

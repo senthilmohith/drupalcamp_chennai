@@ -18,6 +18,7 @@ display:
       fields:
         filename:
           label: பெயர்
+          separator: ', '
         filemime:
           label: 'மைம் வகை'
         filesize:

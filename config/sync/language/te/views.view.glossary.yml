@@ -8,6 +8,9 @@ display:
         options:
           expose:
             items_per_page_options_all_label: '- అన్ని -'
+          tags:
+            previous: ‹‹
+            next: ››
       fields:
         title:
           label: శీర్షిక

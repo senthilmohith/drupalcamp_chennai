@@ -1,3 +1,4 @@
+label: ஊடகம்
 display:
   default:
     display_options:
@@ -18,17 +19,25 @@ display:
       fields:
         media_bulk_form:
           action_title: செயல்
+        thumbnail__target_id:
+          separator: ', '
+        name:
+          separator: ', '
         bundle:
           label: வகை
+          separator: ', '
         uid:
           label: எழுத்தாளர்
+          separator: ', '
         status:
           label: நிலை
           settings:
             format_custom_true: வெளியிடப்பட்டது
             format_custom_false: வெளியிடப்படாத
+          separator: ', '
         changed:
           label: மாற்றப்பட்டது
+          separator: ', '
         operations:
           label: செயல்பாடுகள்
       filters:
@@ -36,6 +45,8 @@ display:
           expose:
             label: வகை
         status:
+          expose:
+            label: சரி
           group_info:
             group_items:
               1:
@@ -45,3 +56,9 @@ display:
         langcode:
           expose:
             label: மொழி
+      title: ஊடகம்
+  media_page_list:
+    display_title: ஊடகம்
+    display_options:
+      menu:
+        title: ஊடகம்

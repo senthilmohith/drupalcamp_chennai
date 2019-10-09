@@ -1,3 +1,6 @@
+title: தொடர்பு
+settings:
+  confirmation_message: 'உங்களது தகவல் அனுப்பப் பட்டது.'
 handlers:
   email_confirmation:
     label: 'மின்னஞ்சல் உறுதிப்படுத்தல்'

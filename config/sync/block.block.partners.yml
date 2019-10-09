@@ -1,0 +1,31 @@
+uuid: 4554027a-bb3a-4b18-acc5-db557a7c69e9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:016a0730-4ac3-47d9-8a19-5335cc5c8be7'
+  module:
+    - block_content
+    - system
+  theme:
+    - hcode_dcc19
+id: partners
+theme: hcode_dcc19
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:016a0730-4ac3-47d9-8a19-5335cc5c8be7'
+settings:
+  id: 'block_content:016a0730-4ac3-47d9-8a19-5335cc5c8be7'
+  label: Partners
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

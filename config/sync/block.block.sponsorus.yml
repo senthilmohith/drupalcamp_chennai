@@ -12,7 +12,7 @@ dependencies:
 id: sponsorus
 theme: hcode_dcc19
 region: content
-weight: 0
+weight: -4
 provider: null
 plugin: 'block_content:8f7f0770-0bae-4aec-ab29-236dcec67d5c'
 settings:

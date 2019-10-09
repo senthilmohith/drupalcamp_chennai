@@ -7,13 +7,20 @@ display:
       pager:
         options:
           tags:
+            previous: ‹‹
+            next: ››
             first: '« మొదటి'
             last: 'చివర »'
           expose:
             items_per_page_options_all_label: '- అన్ని -'
       fields:
+        created:
+          label: సృష్టితం
+        remote_addr:
+          label: 'ఐపీ చిరునామా'
         view_webform_submission:
           label: కార్యాలు
+          text: వీక్షించు
       arguments:
         in_draft:
           exception:
@@ -23,6 +30,10 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: చర్య
+        created:
+          label: సృష్టితం
+        remote_addr:
+          label: 'ఐపీ చిరునామా'
         operations:
           label: కార్యాలు
   embed_manage:
@@ -30,12 +41,23 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: చర్య
+        created:
+          label: సృష్టితం
+        remote_addr:
+          label: 'ఐపీ చిరునామా'
         view_webform_submission:
           label: కార్యాలు
+          text: వీక్షించు
         edit_webform_submission:
           label: కార్యాలు
+          text: మార్చు
   embed_review:
     display_options:
       fields:
+        created:
+          label: సృష్టితం
+        remote_addr:
+          label: 'ఐపీ చిరునామా'
         view_webform_submission:
           label: కార్యాలు
+          text: వీక్షించు

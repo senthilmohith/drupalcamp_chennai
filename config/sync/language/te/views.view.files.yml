@@ -12,8 +12,14 @@ display:
           expose:
             items_per_page_options_all_label: '- అన్ని -'
       fields:
+        filename:
+          label: పేరు
+        filesize:
+          label: కొలత
         status:
           label: స్థితి
+        changed:
+          label: 'మార్చిన తేదీ'
       filters:
         status:
           expose:

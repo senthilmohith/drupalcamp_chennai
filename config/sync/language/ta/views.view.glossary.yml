@@ -12,6 +12,9 @@ display:
         options:
           expose:
             items_per_page_options_all_label: '- அனைத்தும் -'
+          tags:
+            previous: ‹‹
+            next: ››
       fields:
         title:
           label: தலைப்பு

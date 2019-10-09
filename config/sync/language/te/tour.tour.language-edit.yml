@@ -1,0 +1,7 @@
+tips:
+  language-edit-langcode:
+    label: 'భాషా సంకేతం'
+  language-edit-label:
+    label: 'భాష పేరు'
+  language-edit-direction:
+    label: 'భాష దిశ'

@@ -31,6 +31,8 @@ display:
           expose:
             label: రకం
         status:
+          expose:
+            label: సత్యం
           group_info:
             group_items:
               2:

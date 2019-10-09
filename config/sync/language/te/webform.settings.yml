@@ -1,0 +1,9 @@
+settings:
+  default_submit_button_label: 'దాఖలు చెయ్యి'
+  default_preview_next_button_label: మునుజూపు
+  default_preview_label: మునుజూపు
+  dialog_options:
+    normal:
+      title: సాధారణ
+element:
+  default_more_title: మరిన్ని

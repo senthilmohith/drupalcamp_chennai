@@ -8,6 +8,9 @@ display:
           submit_button: விண்ணப்பி
           reset_button_label: மீளமை
           exposed_sorts_label: வரிசையாக
+      fields:
+        changed:
+          separator: ', '
       title: 'அண்மைய பதிவு'
       empty:
         area_text_custom:

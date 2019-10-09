@@ -9,13 +9,26 @@ display:
       pager:
         options:
           tags:
+            previous: ‹‹
+            next: ››
             first: '« முதல்'
             last: 'கடந்த »'
           expose:
             items_per_page_options_all_label: '- அனைத்தும் -'
       fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        created:
+          label: உருவாக்கப்பட்டது
+          separator: ', '
+        remote_addr:
+          label: 'IP முகவரி'
+          separator: ', '
         view_webform_submission:
           label: செயல்பாடுகள்
+          text: பார்
       arguments:
         in_draft:
           exception:
@@ -25,19 +38,85 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: செயல்
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          label: பூட்டப்பட்டது
+          separator: ', '
+        created:
+          label: உருவாக்கப்பட்டது
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          label: 'IP முகவரி'
+          separator: ', '
         operations:
           label: செயல்பாடுகள்
+      filters:
+        locked:
+          expose:
+            label: பூட்டப்பட்டது
   embed_manage:
     display_options:
       fields:
         webform_submission_bulk_form:
           action_title: செயல்
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          label: பூட்டப்பட்டது
+          separator: ', '
+        created:
+          label: உருவாக்கப்பட்டது
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          label: 'IP முகவரி'
+          separator: ', '
         view_webform_submission:
           label: செயல்பாடுகள்
+          text: பார்
         edit_webform_submission:
           label: செயல்பாடுகள்
+          text: மாற்று
+      filters:
+        locked:
+          expose:
+            label: பூட்டப்பட்டது
   embed_review:
     display_options:
       fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          label: பூட்டப்பட்டது
+          separator: ', '
+        created:
+          label: உருவாக்கப்பட்டது
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          label: 'IP முகவரி'
+          separator: ', '
         view_webform_submission:
           label: செயல்பாடுகள்
+          text: பார்
+      filters:
+        locked:
+          expose:
+            label: பூட்டப்பட்டது

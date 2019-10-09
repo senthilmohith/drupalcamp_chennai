@@ -1,3 +1,4 @@
+label: సారము
 display:
   default:
     display_options:
@@ -36,5 +37,11 @@ display:
         langcode:
           expose:
             label: భాష
+      title: సారము
   page_1:
+    display_options:
+      menu:
+        title: సారము
+      tab_options:
+        title: సారము
     display_title: పేజీ
