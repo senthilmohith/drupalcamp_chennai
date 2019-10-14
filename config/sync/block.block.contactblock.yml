@@ -1,6 +1,6 @@
 uuid: f6c91758-f93d-434e-b239-b251530d1b2e
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - contact.form.feedback
