@@ -9,7 +9,7 @@ dependencies:
     - field.field.user.user.field_full_name
     - field.field.user.user.field_location_city
     - field.field.user.user.field_mobile_number
-    - field.field.user.user.field_organization_college
+    - field.field.user.user.field_organization
     - field.field.user.user.field_types_of_business
     - field.field.user.user.user_picture
   module:
@@ -42,6 +42,11 @@ content:
     settings:
       placeholder: ''
     third_party_settings: {  }
+  google_analytics:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   translation:
     weight: 3
     region: content
@@ -52,7 +57,7 @@ hidden:
   field_designation: true
   field_drupal_org_profile: true
   field_location_city: true
-  field_organization_college: true
+  field_organization: true
   field_types_of_business: true
   langcode: true
   language: true

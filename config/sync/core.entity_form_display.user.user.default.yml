@@ -8,7 +8,7 @@ dependencies:
     - field.field.user.user.field_full_name
     - field.field.user.user.field_location_city
     - field.field.user.user.field_mobile_number
-    - field.field.user.user.field_organization_college
+    - field.field.user.user.field_organization
     - field.field.user.user.field_types_of_business
     - field.field.user.user.user_picture
     - image.style.thumbnail
@@ -30,7 +30,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_designation:
-    weight: 4
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     type: options_select
@@ -52,7 +52,7 @@ content:
     type: string_textfield
     region: content
   field_location_city:
-    weight: 5
+    weight: 6
     settings:
       size: 60
       placeholder: ''
@@ -66,32 +66,38 @@ content:
     third_party_settings: {  }
     type: telephone_default
     region: content
-  field_organization_college:
-    weight: 3
+  field_organization:
+    weight: 4
     settings:
+      match_operator: CONTAINS
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
+    type: entity_reference_autocomplete
     region: content
   field_types_of_business:
-    weight: 6
+    weight: 5
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
-  language:
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  timezone:
+  google_analytics:
     weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
-  translation:
+  language:
     weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  translation:
+    weight: 12
     region: content
     settings: {  }
     third_party_settings: {  }

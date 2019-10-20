@@ -5,12 +5,8 @@ dependencies:
   config:
     - field.field.node.sessions.body
     - field.field.node.sessions.field_co_speaker
-    - field.field.node.sessions.field_company_name
-    - field.field.node.sessions.field_drupal_org_username
     - field.field.node.sessions.field_experience_level_
     - field.field.node.sessions.field_session_track
-    - field.field.node.sessions.field_speaker_email_address
-    - field.field.node.sessions.field_speaker_phone_number
     - field.field.node.sessions.field_status
     - node.type.sessions
   module:
@@ -37,22 +33,6 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_company_name:
-    weight: 7
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_drupal_org_username:
-    weight: 6
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
   field_experience_level_:
     weight: 2
     label: inline
@@ -67,21 +47,6 @@ content:
       link: false
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
-  field_speaker_email_address:
-    weight: 3
-    label: inline
-    settings: {  }
-    third_party_settings: {  }
-    type: basic_string
-    region: content
-  field_speaker_phone_number:
-    weight: 4
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
     region: content
 hidden:
   field_status: true

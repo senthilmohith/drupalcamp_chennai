@@ -1,17 +1,16 @@
-uuid: 599be324-56fc-4bd1-a5c7-fd9054ecd831
+uuid: 54a615a8-a1ff-410b-9e1f-38c56bd6c7f6
 langcode: en
 status: true
 dependencies:
   module:
+    - taxonomy
     - user
-id: user.field_organization_college
-field_name: field_organization_college
+id: user.field_organization
+field_name: field_organization
 entity_type: user
-type: string
+type: entity_reference
 settings:
-  max_length: 500
-  is_ascii: false
-  case_sensitive: false
+  target_type: taxonomy_term
 module: core
 locked: false
 cardinality: 1

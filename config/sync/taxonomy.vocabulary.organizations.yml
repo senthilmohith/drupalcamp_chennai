@@ -1,0 +1,8 @@
+uuid: 946a402e-ed90-451f-8303-a63a6f1a2ec9
+langcode: en
+status: true
+dependencies: {  }
+name: Organizations
+vid: organizations
+description: ''
+weight: 0

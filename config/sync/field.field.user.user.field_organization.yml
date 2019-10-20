@@ -1,0 +1,30 @@
+uuid: e1a9c3be-b645-4c9b-8f7a-6b0d6a4d7c09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_organization
+    - taxonomy.vocabulary.organizations
+  module:
+    - user
+id: user.user.field_organization
+field_name: field_organization
+entity_type: user
+bundle: user
+label: Organization/College
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      organizations: organizations
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

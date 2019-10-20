@@ -12,7 +12,7 @@ id: volunteer
 title: Volunteer
 description: 'Volunteer Form'
 category: ''
-elements: "name:\n  '#type': textfield\n  '#title': Name\n  '#required': true\n  '#required_error': 'Name is required'\nemail:\n  '#type': email\n  '#title': Email\n  '#required': true\n  '#required_error': 'Email is required'\nphone:\n  '#type': tel\n  '#title': Phone\n  '#required': true\n  '#required_error': 'Phone is required'\n  '#international': true\n  '#international_initial_country': IN\norganization:\n  '#type': textfield\n  '#title': Organization\ncity:\n  '#type': textfield\n  '#title': City\n  '#required_error': 'City is required'\nmessage:\n  '#type': textarea\n  '#title': 'How do you want to contribute?'"
+elements: "name:\n  '#type': textfield\n  '#title': Name\n  '#required': true\n  '#required_error': 'Name is required'\nemail:\n  '#type': email\n  '#title': Email\n  '#required': true\n  '#required_error': 'Email is required'\nphone:\n  '#type': tel\n  '#title': Phone\n  '#required': true\n  '#required_error': 'Phone is required'\n  '#international': true\n  '#international_initial_country': IN\n  '#telephone_validation_format': '2'\n  '#telephone_validation_country': IN\norganization:\n  '#type': textfield\n  '#title': Organization\ncity:\n  '#type': textfield\n  '#title': City\n  '#required_error': 'City is required'\nmessage:\n  '#type': textarea\n  '#title': 'How do you want to contribute?'"
 css: ''
 javascript: ''
 settings:
