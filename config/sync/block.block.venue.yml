@@ -1,0 +1,31 @@
+uuid: 8e37f59d-c7a7-47eb-bd72-dfe0912fab59
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:84f041f0-55d5-4d5e-a43e-d8cf2909be82'
+  module:
+    - block_content
+    - system
+  theme:
+    - hcode_dcc19
+id: venue
+theme: hcode_dcc19
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:84f041f0-55d5-4d5e-a43e-d8cf2909be82'
+settings:
+  id: 'block_content:84f041f0-55d5-4d5e-a43e-d8cf2909be82'
+  label: Venue
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,31 @@
+uuid: 70b32293-996b-4852-b5ff-2ec4482949ba
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1045a13c-ab56-4613-bac4-516f40635a39'
+  module:
+    - block_content
+    - system
+  theme:
+    - hcode_dcc19
+id: chennaifeatures
+theme: hcode_dcc19
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:1045a13c-ab56-4613-bac4-516f40635a39'
+settings:
+  id: 'block_content:1045a13c-ab56-4613-bac4-516f40635a39'
+  label: 'Chennai features'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

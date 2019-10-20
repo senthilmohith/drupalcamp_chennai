@@ -1,0 +1,31 @@
+uuid: 267c19ce-8079-42fe-b0eb-7b67a0a51eee
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1fbf7336-3950-4795-8915-7f7b75a8e969'
+  module:
+    - block_content
+    - system
+  theme:
+    - hcode_dcc19
+id: becomevolunteer
+theme: hcode_dcc19
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:1fbf7336-3950-4795-8915-7f7b75a8e969'
+settings:
+  id: 'block_content:1fbf7336-3950-4795-8915-7f7b75a8e969'
+  label: 'Become Volunteer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
