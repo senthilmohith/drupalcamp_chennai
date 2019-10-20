@@ -96,7 +96,13 @@ nav.tabs {
 }
 
 .shrink-nav.nav-white.sticky-nav .lang-swtc .links a:hover, .shrink-nav.nav-white.sticky-nav .lang-swtc .links li.is-active a {
-  color: #575757;
+  color: #ccc;
+}
+
+@media (max-width: 991px) {
+  .shrink-nav.nav-white.sticky-nav .lang-swtc .links a {
+    color: #fff;
+  }
 }
 
 @media (min-width: 992px) {
@@ -150,12 +156,6 @@ input + .description, textarea + .description, select + .description {
 
 .no-fx {
   background-attachment: scroll !important;
-}
-
-@media(min-width: 768px) {
-  .copyright {
-    margin-top: 22px;
-  }
 }
 
 .footer-bottom .container {
@@ -244,4 +244,9 @@ input + .description, textarea + .description, select + .description {
 .alert-danger {
     background-color: #f2dede !important;
     margin: 0 !important;
+}
+
+.owl-carousel .owl-stage, .owl-carousel .owl-item{
+  -ms-touch-action: auto !important;
+      touch-action: auto !important;
 }

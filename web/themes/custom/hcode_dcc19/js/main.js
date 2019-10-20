@@ -7,7 +7,8 @@ var hashfilter;
 
 (function ($, Drupal) {
     Drupal.behaviors.mynewModuleBehavior = {
-      attach: function (context, settings) {  
+      attach: function (context, settings) {
+          console.log('dfdf');
 
     // Show Animated Counters
     animatecounters();
@@ -236,7 +237,9 @@ var hashfilter;
         paginationSpeed: 400,
         singleItem: true,
         transitionStyle : "fade",
-        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        mouseDrag: true,
+        touchDrag: false
     });
     $("#owl-demo-small").owlCarousel({
         navigation: true, // Show next and prev buttons
