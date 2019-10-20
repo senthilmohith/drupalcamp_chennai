@@ -260,4 +260,38 @@ color: #FFF;
 font-size: 90px;
 }
 
-
+.pricing-box.best-price .pricing-title h3 {
+  color: #fff;
+  font-size: 4444;
+  font-weight: 600;
+  outline: black 1px;
+}
+.diamond-color,
+.diamond-color .pricing-title{
+  background-color: #b9f2ff !important;
+}
+.platinum-color,
+.platinum-color .pricing-title{
+ background-color: #E5E4E2 !important;
+}
+.gold-color,
+.gold-color .pricing-title{
+  background-color: #FFD700 !important;
+}
+.silver-color,
+.silver-color .pricing-title{
+  background-color: #C0C0C0 !important;
+}
+.pricing-box.best-price {
+  margin: -20px -1px 0;
+  color: #999;
+  box-shadow: -20px 17px 11px 0px;
+  padding: 10px;
+  border: none;
+}
+.pricing-box.best-price .pricing-title h3{
+  color: black !important;
+}
+.pricing-title span{
+  color: black !important;
+}
