@@ -43,6 +43,7 @@
         "drupal/social_auth_google": "^2.0",
         "drupal/social_auth_linkedin": "^2.0",
         "drupal/social_auth_twitter": "^2.0",
+        "drupal/translatable_menu_link_uri": "^1.2",
         "drupal/twig_tweak": "^2.4",
         "drush/drush": "^9.0.0",
         "giggsey/libphonenumber-for-php": "^8.10",
