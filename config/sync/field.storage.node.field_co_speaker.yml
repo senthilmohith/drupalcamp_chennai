@@ -1,0 +1,20 @@
+uuid: 56bf3bdb-b67f-4f50-b8e9-d4145ed285f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+id: node.field_co_speaker
+field_name: field_co_speaker
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 693882d0-3bf1-41e8-929d-aa69c7c031d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_status
+    - node.type.sessions
+id: node.sessions.field_status
+field_name: field_status
+entity_type: node
+bundle: sessions
+label: Status
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

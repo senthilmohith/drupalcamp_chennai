@@ -14,6 +14,8 @@ permissions:
   - 'access shortcuts'
   - 'access site-wide contact form'
   - 'change own username'
+  - 'create sessions content'
+  - 'edit own sessions content'
   - 'opt-in or out of google analytics tracking'
   - 'post comments'
   - 'search content'

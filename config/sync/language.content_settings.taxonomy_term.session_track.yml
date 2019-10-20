@@ -1,0 +1,11 @@
+uuid: 1198f2c9-51f7-4761-85e0-7efcd39e909a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.session_track
+id: taxonomy_term.session_track
+target_entity_type_id: taxonomy_term
+target_bundle: session_track
+default_langcode: site_default
+language_alterable: false

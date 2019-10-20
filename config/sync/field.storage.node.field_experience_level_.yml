@@ -1,0 +1,30 @@
+uuid: bdae760a-5802-441c-b9d1-520dc5310f18
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_experience_level_
+field_name: field_experience_level_
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: expert
+      label: Expert
+    -
+      value: intermediate
+      label: Intermediate
+    -
+      value: beginner
+      label: Beginner
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

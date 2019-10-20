@@ -1,0 +1,11 @@
+uuid: 269adb7d-5465-4d25-9c7c-5b32c0948f4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sessions
+id: node.sessions
+target_entity_type_id: node
+target_bundle: sessions
+default_langcode: site_default
+language_alterable: false

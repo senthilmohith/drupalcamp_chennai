@@ -1,0 +1,22 @@
+uuid: cd4a4cb4-a94c-4949-8821-08eadbb7f66a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.sessions
+  module:
+    - text
+id: node.sessions.body
+field_name: body
+entity_type: node
+bundle: sessions
+label: 'Session Deatils'
+description: 'This will be the information that the selection team uses to evaluate your session. It will also be what attendees read when they are selecting to attend your session. It should highlight what level of knowledge attendees should have walking into your session and what they will walk away having learned.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

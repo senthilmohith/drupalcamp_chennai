@@ -1,0 +1,19 @@
+uuid: 230bffb6-087e-43fc-9ef7-3c33e2196fb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_speaker_phone_number
+    - node.type.sessions
+id: node.sessions.field_speaker_phone_number
+field_name: field_speaker_phone_number
+entity_type: node
+bundle: sessions
+label: 'Speaker Phone Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,23 +1,23 @@
-uuid: 70b32293-996b-4852-b5ff-2ec4482949ba
+uuid: f26b0061-08b6-4282-88a5-b75a708291d8
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:1045a13c-ab56-4613-bac4-516f40635a39'
+    - 'block_content:basic:c9fd7e36-d4fb-4e11-bf90-835e04f031aa'
   module:
     - block_content
     - system
   theme:
     - hcode_dcc19
-id: chennaifeatures
+id: sponsorshippackages
 theme: hcode_dcc19
 region: content
-weight: -2
+weight: -7
 provider: null
-plugin: 'block_content:1045a13c-ab56-4613-bac4-516f40635a39'
+plugin: 'block_content:c9fd7e36-d4fb-4e11-bf90-835e04f031aa'
 settings:
-  id: 'block_content:1045a13c-ab56-4613-bac4-516f40635a39'
-  label: 'Chennai features'
+  id: 'block_content:c9fd7e36-d4fb-4e11-bf90-835e04f031aa'
+  label: 'Sponsorship packages'
   provider: block_content
   label_display: '0'
   status: true

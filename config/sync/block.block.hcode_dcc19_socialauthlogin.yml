@@ -15,7 +15,7 @@ third_party_settings:
 id: hcode_dcc19_socialauthlogin
 theme: hcode_dcc19
 region: content
-weight: -6
+weight: -8
 provider: null
 plugin: social_auth_login
 settings:

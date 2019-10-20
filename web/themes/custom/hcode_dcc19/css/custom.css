@@ -250,3 +250,14 @@ input + .description, textarea + .description, select + .description {
   -ms-touch-action: auto !important;
       touch-action: auto !important;
 }
+input, textarea, select {
+text-transform: none !important;
+}
+a.copyright:hover {
+color: #FFF;
+}
+.slider-title-big6 {
+font-size: 90px;
+}
+
+

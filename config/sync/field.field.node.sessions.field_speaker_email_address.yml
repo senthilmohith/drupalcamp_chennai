@@ -1,0 +1,19 @@
+uuid: 921c1cb1-2b13-4c2e-b2d5-7d0d945db0fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_speaker_email_address
+    - node.type.sessions
+id: node.sessions.field_speaker_email_address
+field_name: field_speaker_email_address
+entity_type: node
+bundle: sessions
+label: 'Speaker Email Address'
+description: 'Please provide the email address at which you can be reached.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

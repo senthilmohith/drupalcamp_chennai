@@ -1,0 +1,101 @@
+uuid: bff51d59-823a-414b-8a3d-047b7dd39622
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sessions.body
+    - field.field.node.sessions.field_co_speaker
+    - field.field.node.sessions.field_company_name
+    - field.field.node.sessions.field_drupal_org_username
+    - field.field.node.sessions.field_experience_level_
+    - field.field.node.sessions.field_session_track
+    - field.field.node.sessions.field_speaker_email_address
+    - field.field.node.sessions.field_speaker_phone_number
+    - field.field.node.sessions.field_status
+    - node.type.sessions
+  module:
+    - text
+id: node.sessions.default
+targetEntityType: node
+bundle: sessions
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 2
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_co_speaker:
+    weight: 6
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_company_name:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_drupal_org_username:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_experience_level_:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_session_track:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_speaker_email_address:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_speaker_phone_number:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_status: true
+  langcode: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

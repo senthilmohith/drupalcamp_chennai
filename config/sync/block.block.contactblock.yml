@@ -12,7 +12,7 @@ dependencies:
 id: contactblock
 theme: hcode_dcc19
 region: content
-weight: -5
+weight: -1
 provider: null
 plugin: contact_block
 settings:
