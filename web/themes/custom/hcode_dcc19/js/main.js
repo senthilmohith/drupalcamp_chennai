@@ -242,23 +242,7 @@ var hashfilter;
         items: 1,
         touchDrag:false,
         mouseDrag:true,
-        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        responsiveClass:true,
-        responsive:{
-            0:{                
-                autoHeight: true,
-                mouseDrag: false,
-                touchDrag: true
-            },
-            600:{
-                autoHeight: true,
-                mouseDrag: false,
-                touchDrag: true
-            },
-            1000:{
-                autoWidth: true
-            }
-        }   
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],          
     });
     $("#owl-demo-small").owlCarousel({
         navigation: true, // Show next and prev buttons
