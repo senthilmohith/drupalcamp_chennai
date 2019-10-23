@@ -232,7 +232,7 @@ var hashfilter;
 
 
     $("#owl-demo").owlCarousel({
-        loop:true,
+        loop:false,
         autoplay: false,
         margin:0,
         animateOut: 'fadeOut',
