@@ -244,11 +244,16 @@ var hashfilter;
         navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],          
     });
     $("#owl-demo-small").owlCarousel({
-        navigation: true, // Show next and prev buttons
-        slideSpeed: 300,
-        paginationSpeed: 400,
-        singleItem: true,
-        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+        autoplay: true,
+        margin:0,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
+        nav:true,
+        autoplayHoverPause: false,
+        items: 1,
+        touchDrag:false,
+        mouseDrag:true,
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"], 
     });
     $("#owl-demo-products").owlCarousel({
         navigation: true, // Show next and prev buttons
