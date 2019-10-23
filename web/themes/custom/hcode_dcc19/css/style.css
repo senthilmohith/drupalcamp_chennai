@@ -2186,8 +2186,3 @@ thead th.first { padding-left: 0 !important; }
 main{
   clear: both;
 }
-
-    .owl-carousel {
-    -ms-touch-action: none;
-    touch-action: none;
-    }

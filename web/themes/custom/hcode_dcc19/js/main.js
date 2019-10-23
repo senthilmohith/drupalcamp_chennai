@@ -231,8 +231,7 @@ var hashfilter;
     /*==============================================================*/
 
 
-    $("#owl-demo").owlCarousel({
-        loop:true,
+    $("#owl-demo").owlCarousel({        
         autoplay: true,
         margin:0,
         animateOut: 'fadeOut',
