@@ -232,17 +232,17 @@ var hashfilter;
 
 
     $("#owl-demo").owlCarousel({
+        loop:true,
+        autoplay: true,
+        margin:0,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
+        nav:false,
+        autoplayHoverPause: false,
         items: 1,
-        loop: true,
-        nav:true,
-        //navigation: true, // Show next and prev buttons
-        //slideSpeed: 300,
-        //paginationSpeed: 400,
-        //singleItem: true,
-        //transitionStyle : "fade",
-        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        //mouseDrag: true,
-        //touchDrag: false
+        touchDrag:true,
+        mouseDrag:false,
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],        
     });
     $("#owl-demo-small").owlCarousel({
         navigation: true, // Show next and prev buttons
