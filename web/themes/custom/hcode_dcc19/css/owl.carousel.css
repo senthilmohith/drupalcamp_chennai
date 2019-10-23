@@ -66,8 +66,7 @@
 	.owl-carousel button.owl-dot {
 	  background: none;
 	  color: inherit;
-	  border: none;
-	  padding: 0 !important;
+	  border: none;	  
 	  font: inherit; }
 	.owl-carousel.owl-loaded {
 	  display: block; }

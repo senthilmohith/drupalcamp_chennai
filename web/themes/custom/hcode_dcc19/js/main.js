@@ -231,8 +231,9 @@ var hashfilter;
     /*==============================================================*/
 
 
-    $("#owl-demo").owlCarousel({        
-        autoplay: true,
+    $("#owl-demo").owlCarousel({
+        loop:true,
+        autoplay: false,
         margin:0,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
@@ -241,9 +242,26 @@ var hashfilter;
         items: 1,
         touchDrag:false,
         mouseDrag:true,
-        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],          
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        responsiveClass:true,
+        responsive:{
+            0:{                
+                autoHeight: true,
+                mouseDrag: false,
+                touchDrag: true
+            },
+            600:{
+                autoHeight: true,
+                mouseDrag: false,
+                touchDrag: true
+            },
+            1000:{
+                autoWidth: false
+            }
+        }   
     });
     $("#owl-demo-small").owlCarousel({
+        loop:true,
         autoplay: true,
         margin:0,
         animateOut: 'fadeOut',
@@ -253,7 +271,23 @@ var hashfilter;
         items: 1,
         touchDrag:false,
         mouseDrag:true,
-        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"], 
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        responsiveClass:true,
+        responsive:{
+            0:{                
+                autoHeight: true,
+                mouseDrag: false,
+                touchDrag: true
+            },
+            600:{
+                autoHeight: true,
+                mouseDrag: false,
+                touchDrag: true
+            },
+            1000:{
+                autoWidth: false
+            }
+        }
     });
     $("#owl-demo-products").owlCarousel({
         navigation: true, // Show next and prev buttons
