@@ -1,0 +1,6 @@
+elements: "name:\n  '#title': పేరు\n  '#required_error': 'పేరు అవసరం'\nemail:\n  '#title': ఇమెయిల్\n  '#required_error': 'ఇమెయిల్ అవసరం'\nphone:\n  '#title': 'మొబైల్ నంబర్'\n  '#required_error': 'మొబైల్ నంబర్ అవసరం'\norganization:\n  '#title': సంస్థ\ncity:\n  '#title': నగరం\n  '#required_error': 'నగరం అవసరం'\nmessage:\n  '#title': సందేశం\n"
+settings:
+  confirmation_message: '<p lang="en-US">ద్రుపాల్‌క్యాంప్ చెన్నై కమ్యూనిటీ 2019 లో భాగమైనందుకు చాలా ధన్యవాదాలు. మీ సహాయం లేకుండా మేము ఈ సంఘటనలను చేయలేము!&nbsp;</p>'
+  confirmation_title: ధన్యవాదాలు
+title: 'మాకు మద్దతు చేయండి'
+description: 'మద్దతునిచ్చు ఫారం'

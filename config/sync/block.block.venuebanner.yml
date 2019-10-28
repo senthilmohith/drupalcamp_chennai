@@ -1,23 +1,23 @@
-uuid: a395aa55-e12f-4f01-b060-4b1d6221e5cf
+uuid: 81c6796c-6f60-4375-a2ee-1bce446c9880
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:ec844a10-36eb-4f45-8b0d-04468b404784'
+    - 'block_content:basic:9ca664ec-03d3-404c-8a11-e17161c97d99'
   module:
     - block_content
     - system
   theme:
     - hcode_dcc19
-id: aboutusbanner
+id: venuebanner
 theme: hcode_dcc19
 region: highlighted
 weight: 0
 provider: null
-plugin: 'block_content:ec844a10-36eb-4f45-8b0d-04468b404784'
+plugin: 'block_content:9ca664ec-03d3-404c-8a11-e17161c97d99'
 settings:
-  id: 'block_content:ec844a10-36eb-4f45-8b0d-04468b404784'
-  label: 'About us banner'
+  id: 'block_content:9ca664ec-03d3-404c-8a11-e17161c97d99'
+  label: 'Venue banner'
   provider: block_content
   label_display: '0'
   status: true
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /about-us
+    pages: /venue
     negate: false
     context_mapping: {  }
