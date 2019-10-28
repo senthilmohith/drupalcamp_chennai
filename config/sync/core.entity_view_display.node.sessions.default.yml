@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.sessions.body
     - field.field.node.sessions.field_co_speaker
     - field.field.node.sessions.field_experience_level_
+    - field.field.node.sessions.field_session_state
     - field.field.node.sessions.field_session_track
     - field.field.node.sessions.field_status
     - node.type.sessions
@@ -26,7 +27,7 @@ content:
     third_party_settings: {  }
     region: content
   field_co_speaker:
-    weight: 5
+    weight: 3
     label: inline
     settings:
       link: true
@@ -49,6 +50,7 @@ content:
     type: entity_reference_label
     region: content
 hidden:
+  field_session_state: true
   field_status: true
   langcode: true
   links: true

@@ -1,0 +1,23 @@
+uuid: 602f2681-0a73-4efa-8c39-e5746c59fac8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_session_state
+    - node.type.sessions
+  module:
+    - options
+id: node.sessions.field_session_state
+field_name: field_session_state
+entity_type: node
+bundle: sessions
+label: 'Session State'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: proposed
+default_value_callback: ''
+settings: {  }
+field_type: list_string

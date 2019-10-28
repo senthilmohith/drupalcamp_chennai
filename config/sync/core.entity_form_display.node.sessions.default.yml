@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.sessions.body
     - field.field.node.sessions.field_co_speaker
     - field.field.node.sessions.field_experience_level_
+    - field.field.node.sessions.field_session_state
     - field.field.node.sessions.field_session_track
     - field.field.node.sessions.field_status
     - node.type.sessions
@@ -18,7 +19,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 2
+    weight: 1
     settings:
       rows: 9
       summary_rows: 3
@@ -26,7 +27,7 @@ content:
     third_party_settings: {  }
     region: content
   field_co_speaker:
-    weight: 6
+    weight: 4
     settings:
       match_operator: CONTAINS
       size: 60
@@ -41,7 +42,7 @@ content:
     type: options_select
     region: content
   field_session_track:
-    weight: 1
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     type: options_select
@@ -56,6 +57,7 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_session_state: true
   field_status: true
   langcode: true
   path: true
