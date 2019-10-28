@@ -1,0 +1,31 @@
+uuid: 7e4a8163-01ec-4df4-ab34-60b49538361a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dc236b2e-3a9a-4ad8-aa94-13aca60fc0eb'
+  module:
+    - block_content
+    - system
+  theme:
+    - hcode_dcc19
+id: aboutusbanner
+theme: hcode_dcc19
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:dc236b2e-3a9a-4ad8-aa94-13aca60fc0eb'
+settings:
+  id: 'block_content:dc236b2e-3a9a-4ad8-aa94-13aca60fc0eb'
+  label: 'About us banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about-us
+    negate: false
+    context_mapping: {  }

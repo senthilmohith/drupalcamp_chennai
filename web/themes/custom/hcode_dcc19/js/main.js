@@ -8,7 +8,7 @@ var hashfilter;
 (function ($, Drupal) {
     Drupal.behaviors.mynewModuleBehavior = {
       attach: function (context, settings) {
-          console.log('dfdf');
+          //console.log('dfdf');
 
     // Show Animated Counters
     animatecounters();

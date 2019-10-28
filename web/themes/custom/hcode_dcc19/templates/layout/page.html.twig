@@ -69,8 +69,12 @@
 
   {{ page.highlighted }}
 
-  {{ page.help }}  
-      {{ page.content }}
+  {{ page.help }}
+<!-- content section -->
+        <section class="wow fadeIn padding-five">
+            <div class="container">
+                <div class="row">
+   {{ page.content }}
 
     {% if page.sidebar_first %}
       <aside class="layout-sidebar-first" role="complementary">
@@ -83,7 +87,11 @@
         {{ page.sidebar_second }}
       </aside>
     {% endif %}
-  
+   <!-- end content  -->
+                </div>
+            </div>
+        </section>
+        <!-- end content section -->
 <!-- footer -->
 <footer>
   {{ page.footer }}

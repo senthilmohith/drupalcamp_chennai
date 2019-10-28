@@ -11,6 +11,7 @@
 /web/sites/*/settings.php
 /web/sites/*/services.yml
 /web/sites/*/settings.local.php
+config/sync/language.negotiation.yml
 
 # Ignore Drupal's file directory
 /web/sites/*/files/
