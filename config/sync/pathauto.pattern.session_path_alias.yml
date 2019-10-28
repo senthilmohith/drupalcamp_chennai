@@ -1,0 +1,33 @@
+uuid: 3851bca6-094d-46ef-b3d8-2a9b195ad389
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: session_path_alias
+label: 'Session path alias'
+type: 'canonical_entities:node'
+pattern: 'session/[node:title]'
+selection_criteria:
+  792fa8dd-c1da-4085-8d63-2af66158fd7c:
+    id: node_type
+    bundles:
+      sessions: sessions
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 792fa8dd-c1da-4085-8d63-2af66158fd7c
+  1a453547-daa5-49d5-bb40-95661efc46b5:
+    id: language
+    langcodes:
+      en: en
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: 1a453547-daa5-49d5-bb40-95661efc46b5
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

@@ -8,7 +8,6 @@ dependencies:
     - field.storage.user.user_picture
     - image.style.thumbnail
     - node.type.sessions
-    - user.role.administrator
   module:
     - image
     - node
@@ -60,15 +59,20 @@ display:
           items_per_page: 0
           offset: 0
       style:
-        type: default
+        type: grid
         options:
           grouping:
             -
               field: field_session_track
               rendered: true
               rendered_strip: false
-          row_class: ''
-          default_row_class: true
+          columns: 3
+          automatic_width: true
+          alignment: horizontal
+          col_class_default: false
+          col_class_custom: 'col-md-4 no-border bg-gray-light'
+          row_class_default: false
+          row_class_custom: 'row show-grid xs-padding-right xs-padding-left'
       row:
         type: fields
       fields:
@@ -329,6 +333,45 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
+        field_session_state_value:
+          id: field_session_state_value
+          table: node__field_session_state
+          field: field_session_state_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value:
+            proposed: proposed
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          plugin_id: list_field
       sorts:
         created:
           id: created
@@ -348,7 +391,20 @@ display:
       title: Sessions
       header: {  }
       footer: {  }
-      empty: {  }
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content:
+            value: 'We will list out the accepted sessions on or before November 18, 2019'
+            format: basic_html
+          plugin_id: text
       relationships:
         uid:
           id: uid
@@ -383,6 +439,22 @@ display:
       display_extenders: {  }
       path: sessions
       display_description: ''
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content:
+            value: 'No results found'
+            format: basic_html
+          plugin_id: text
+      defaults:
+        empty: false
     cache_metadata:
       max-age: -1
       contexts:
@@ -424,15 +496,16 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
-        field_status_value:
-          id: field_status_value
-          table: node__field_status
-          field: field_status_value
+        field_session_state_value:
+          id: field_session_state_value
+          table: node__field_session_state
+          field: field_session_state_value
           relationship: none
           group_type: group
           admin_label: ''
-          operator: '='
-          value: '1'
+          operator: or
+          value:
+            accepted: accepted
           group: 1
           exposed: false
           expose:
@@ -447,6 +520,7 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
+            reduce: false
           is_grouped: false
           group_info:
             label: ''
@@ -459,7 +533,8 @@ display:
             default_group: All
             default_group_multiple: {  }
             group_items: {  }
-          plugin_id: boolean
+          reduce_duplicates: false
+          plugin_id: list_field
       defaults:
         filters: false
         filter_groups: false
@@ -469,17 +544,14 @@ display:
         groups:
           1: AND
       access:
-        type: role
-        options:
-          role:
-            administrator: administrator
+        type: none
+        options: {  }
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - 'user.node_grants:view'
-        - user.roles
       tags:
         - 'config:field.storage.node.field_experience_level_'
         - 'config:field.storage.node.field_session_track'

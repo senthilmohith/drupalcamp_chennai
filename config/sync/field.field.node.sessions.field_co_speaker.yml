@@ -10,7 +10,7 @@ field_name: field_co_speaker
 entity_type: node
 bundle: sessions
 label: Co-Speaker
-description: ''
+description: 'Select your co-Speaker'
 required: false
 translatable: false
 default_value: {  }

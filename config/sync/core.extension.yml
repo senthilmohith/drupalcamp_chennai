@@ -24,6 +24,7 @@ module:
   editor: 0
   email_registration: 0
   field: 0
+  field_permissions: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -46,6 +47,7 @@ module:
   rdf: 0
   recaptcha: 0
   reroute_email: 0
+  rules: 0
   search: 0
   shield: 0
   shortcut: 0
@@ -67,6 +69,7 @@ module:
   tour: 0
   translatable_menu_link_uri: 0
   twig_tweak: 0
+  typed_data: 0
   update: 0
   user: 0
   views_ui: 0

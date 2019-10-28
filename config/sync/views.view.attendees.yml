@@ -59,6 +59,9 @@ display:
           offset: 0
           id: 0
           total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -67,11 +70,17 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          tags:
-            previous: ‹‹
-            next: ››
       style:
-        type: default
+        type: grid
+        options:
+          grouping: {  }
+          columns: 4
+          automatic_width: false
+          alignment: horizontal
+          col_class_default: false
+          col_class_custom: 'col-md-3 no-border bg-gray-light'
+          row_class_default: false
+          row_class_custom: 'row show-grid xs-padding-right xs-padding-left'
       row:
         type: fields
       fields:
@@ -119,10 +128,10 @@ display:
           element_wrapper_type: ''
           element_wrapper_class: ''
           element_default_classes: true
-          empty: ''
+          empty: '<img src="/sites/default/files/styles/thumbnail/public/2019-10/dcc-default-avatar.png?itok=2_qNazEy" width="100" height="100" alt="default-dcc-avatar" typeof="foaf:Image" class="image-style-thumbnail">'
           hide_empty: false
           empty_zero: false
-          hide_alter_empty: true
+          hide_alter_empty: false
           click_sort_column: target_id
           type: image
           settings:
@@ -215,7 +224,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: '{{ field_full_name }} ({{ name }})'
+            text: '{{ field_full_name }}'
             make_link: false
             path: ''
             absolute: false
@@ -311,7 +320,7 @@ display:
           element_wrapper_type: ''
           element_wrapper_class: ''
           element_default_classes: true
-          empty: ''
+          empty: '&nbsp;'
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
@@ -426,6 +435,49 @@ display:
           hierarchy: false
           error_message: true
           plugin_id: taxonomy_index_tid
+        uid_raw:
+          id: uid_raw
+          table: users_field_data
+          field: uid_raw
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: '>'
+          value:
+            min: ''
+            max: ''
+            value: '1'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            placeholder: ''
+            min_placeholder: ''
+            max_placeholder: ''
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: user
+          plugin_id: numeric
       sorts:
         created:
           id: created
@@ -443,9 +495,32 @@ display:
             label: ''
           granularity: second
       title: Attendees
-      header: {  }
+      header:
+        result:
+          id: result
+          table: views
+          field: result
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          content: 'Displaying @start - @end of @total'
+          plugin_id: result
       footer: {  }
-      empty: {  }
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content:
+            value: 'No results found'
+            format: basic_html
+          plugin_id: text
       relationships: {  }
       arguments: {  }
       display_extenders: {  }

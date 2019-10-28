@@ -41,6 +41,12 @@ content:
     third_party_settings: {  }
     type: options_select
     region: content
+  field_session_state:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_session_track:
     weight: 2
     settings: {  }
@@ -57,7 +63,6 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  field_session_state: true
   field_status: true
   langcode: true
   path: true
