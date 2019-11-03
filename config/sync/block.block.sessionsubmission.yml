@@ -1,23 +1,23 @@
-uuid: 267c19ce-8079-42fe-b0eb-7b67a0a51eee
+uuid: e3ba0a00-e100-4580-a61c-8fd22eee44aa
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:1fbf7336-3950-4795-8915-7f7b75a8e969'
+    - 'block_content:basic:c8f60d66-fd19-4d65-93c0-53413a7b16fe'
   module:
     - block_content
     - system
   theme:
     - hcode_dcc19
-id: becomevolunteer
+id: sessionsubmission
 theme: hcode_dcc19
 region: content
-weight: -5
+weight: -9
 provider: null
-plugin: 'block_content:1fbf7336-3950-4795-8915-7f7b75a8e969'
+plugin: 'block_content:c8f60d66-fd19-4d65-93c0-53413a7b16fe'
 settings:
-  id: 'block_content:1fbf7336-3950-4795-8915-7f7b75a8e969'
-  label: 'Become Volunteer'
+  id: 'block_content:c8f60d66-fd19-4d65-93c0-53413a7b16fe'
+  label: 'Session Submission'
   provider: block_content
   label_display: '0'
   status: true

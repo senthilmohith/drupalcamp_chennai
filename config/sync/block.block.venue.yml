@@ -12,7 +12,7 @@ dependencies:
 id: venue
 theme: hcode_dcc19
 region: content
-weight: -3
+weight: -4
 provider: null
 plugin: 'block_content:84f041f0-55d5-4d5e-a43e-d8cf2909be82'
 settings:

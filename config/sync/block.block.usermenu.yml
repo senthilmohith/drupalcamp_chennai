@@ -1,0 +1,38 @@
+uuid: 86192dca-5f91-4fd0-a70b-9a2997314ab3
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.user-menu
+  module:
+    - system
+    - user
+  theme:
+    - hcode_dcc19
+id: usermenu
+theme: hcode_dcc19
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:user-menu'
+settings:
+  id: 'system_menu_block:user-menu'
+  label: 'User Menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

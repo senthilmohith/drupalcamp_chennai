@@ -12,7 +12,7 @@ dependencies:
 id: partners
 theme: hcode_dcc19
 region: content
-weight: -5
+weight: -6
 provider: null
 plugin: 'block_content:016a0730-4ac3-47d9-8a19-5335cc5c8be7'
 settings:

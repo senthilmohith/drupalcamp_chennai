@@ -9,7 +9,7 @@ _core:
 id: hcode_dcc19_local_actions
 theme: hcode_dcc19
 region: content
-weight: -10
+weight: -12
 provider: null
 plugin: local_actions_block
 settings:
