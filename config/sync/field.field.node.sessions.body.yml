@@ -11,7 +11,7 @@ id: node.sessions.body
 field_name: body
 entity_type: node
 bundle: sessions
-label: 'Session Deatils'
+label: 'Session Details'
 description: 'This will be the information that the selection team uses to evaluate your session. It will also be what attendees read when they are selecting to attend your session. It should highlight what level of knowledge attendees should have walking into your session and what they will walk away having learned.'
 required: true
 translatable: true

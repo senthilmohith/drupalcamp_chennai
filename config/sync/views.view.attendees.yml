@@ -46,7 +46,7 @@ display:
         type: basic
         options:
           submit_button: Search
-          reset_button: false
+          reset_button: true
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
           expose_sort_order: true
@@ -479,18 +479,6 @@ display:
           entity_type: user
           plugin_id: numeric
       sorts:
-        random:
-          id: random
-          table: views
-          field: random
-          relationship: none
-          group_type: group
-          admin_label: ''
-          order: ASC
-          exposed: false
-          expose:
-            label: ''
-          plugin_id: random
         created:
           id: created
           table: users_field_data
@@ -536,9 +524,9 @@ display:
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
-      use_ajax: true
+      use_ajax: false
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -559,7 +547,7 @@ display:
       display_extenders: {  }
       path: attendees
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
