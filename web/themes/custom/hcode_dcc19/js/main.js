@@ -232,13 +232,13 @@ var hashfilter;
 
 
     $("#owl-demo").owlCarousel({
-        loop:false,
-        autoplay: false,
+        loop: true,
+        autoplay: true,
         margin:0,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
         nav:true,
-        autoplayHoverPause: false,
+        autoplayHoverPause: true,
         items: 1,
         touchDrag:false,
         mouseDrag:true,

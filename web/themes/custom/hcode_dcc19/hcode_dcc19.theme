@@ -24,6 +24,13 @@ function hcode_dcc19_preprocess_block__system_branding_block(&$variables) {
   // An exception might be thrown.
   try {
     $variables['is_front'] = \Drupal::service('path.matcher')->isFrontPage();
+    $node = \Drupal::routeMatch()->getParameter('node');
+    if ($node instanceof \Drupal\node\NodeInterface) {    
+      $nid = $node->id();
+      if ($nid == 38) { //Why attend drupal camp page. looks like front page
+        $variables['is_front'] = TRUE;
+      }
+    }
   } catch (Exception $e) {
 
     // If the database is not yet available, set default values for these
