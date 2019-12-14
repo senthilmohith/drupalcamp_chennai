@@ -6,11 +6,13 @@ dependencies:
     - field.field.node.sessions.body
     - field.field.node.sessions.field_co_speaker
     - field.field.node.sessions.field_experience_level_
+    - field.field.node.sessions.field_presentation
     - field.field.node.sessions.field_session_state
     - field.field.node.sessions.field_session_track
     - field.field.node.sessions.field_status
     - node.type.sessions
   module:
+    - file
     - options
     - text
     - user
@@ -40,6 +42,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: list_default
+    region: content
+  field_presentation:
+    weight: 4
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
     region: content
   field_session_track:
     weight: 0

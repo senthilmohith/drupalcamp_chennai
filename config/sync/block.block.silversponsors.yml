@@ -1,0 +1,37 @@
+uuid: 377dcb70-2642-462b-a7e1-da999e07fe4c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0147173b-f0b4-4487-8c9b-0aa0f8abc374'
+  module:
+    - block_content
+    - mobile_device_detection
+    - system
+  theme:
+    - hcode_dcc19
+id: silversponsors
+theme: hcode_dcc19
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:0147173b-f0b4-4487-8c9b-0aa0f8abc374'
+settings:
+  id: 'block_content:0147173b-f0b4-4487-8c9b-0aa0f8abc374'
+  label: 'Silver Sponsors'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/sponsors\r\n/node/85"
+    negate: false
+    context_mapping: {  }
+  mobile_device_detection_condition_plugin:
+    id: mobile_device_detection_condition_plugin
+    devices: {  }
+    negate: null
+    context_mapping: {  }

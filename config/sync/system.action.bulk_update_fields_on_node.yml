@@ -1,0 +1,11 @@
+uuid: 200c6769-dfbd-44b1-99eb-e17b397e7c4c
+langcode: en
+status: true
+dependencies:
+  module:
+    - bulk_update_fields
+id: bulk_update_fields_on_node
+label: 'Bulk Update Content Fields'
+type: node
+plugin: bulk_update_fields_action_base
+configuration: {  }

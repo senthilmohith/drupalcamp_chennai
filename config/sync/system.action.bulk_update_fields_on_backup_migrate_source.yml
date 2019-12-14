@@ -1,0 +1,11 @@
+uuid: 25c1eaa4-12b1-4fb3-9f21-5ca3b2590d7a
+langcode: en
+status: true
+dependencies:
+  module:
+    - bulk_update_fields
+id: bulk_update_fields_on_backup_migrate_source
+label: 'Bulk Update Backup Source Fields'
+type: backup_migrate_source
+plugin: bulk_update_fields_action_base
+configuration: {  }

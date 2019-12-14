@@ -1,0 +1,183 @@
+uuid: 9dfb20ab-0f57-4b58-8cb4-a7a8a163386f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.sessions.body
+    - field.field.node.sessions.field_co_speaker
+    - field.field.node.sessions.field_experience_level_
+    - field.field.node.sessions.field_presentation
+    - field.field.node.sessions.field_session_state
+    - field.field.node.sessions.field_session_track
+    - field.field.node.sessions.field_status
+    - node.type.sessions
+  module:
+    - ds
+    - field_formatter_class
+    - field_group
+    - file
+    - options
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - group_container
+        - user
+        - body
+        - group_user_group
+        - group_session_details
+        - field_experience_level_
+        - field_presentation
+        - field_session_track
+        - field_session_state
+        - field_co_speaker
+    fields:
+      user:
+        plugin_id: user
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          entity_view_mode: token
+  field_group:
+    group_user_group:
+      children:
+        - user
+      parent_name: group_container
+      weight: 1
+      format_type: html_element
+      region: ds_content
+      format_settings:
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: u-det
+      label: 'User Group'
+    group_session_details:
+      children:
+        - field_experience_level_
+        - field_session_track
+        - field_session_state
+        - field_co_speaker
+      parent_name: group_container
+      weight: 2
+      format_type: html_element
+      region: ds_content
+      format_settings:
+        id: ''
+        classes: s-det
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Session Details'
+    group_container:
+      children:
+        - group_user_group
+        - group_session_details
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      region: ds_content
+      format_settings:
+        id: ''
+        classes: d-fg-cnt
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+      label: Container
+id: node.sessions.full
+targetEntityType: node
+bundle: sessions
+mode: full
+content:
+  body:
+    label: inline
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: ds_content
+  field_co_speaker:
+    weight: 5
+    label: inline
+    settings:
+      link: true
+    third_party_settings:
+      field_formatter_class:
+        class: itm-sep
+      ds:
+        ds_limit: ''
+    type: entity_reference_label
+    region: ds_content
+  field_experience_level_:
+    weight: 2
+    label: inline
+    settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    type: list_default
+    region: ds_content
+  field_presentation:
+    type: file_default
+    weight: 2
+    region: ds_content
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+  field_session_state:
+    type: list_default
+    weight: 4
+    region: ds_content
+    label: inline
+    settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: itm-sep
+      ds:
+        ds_limit: ''
+  field_session_track:
+    weight: 3
+    label: inline
+    settings:
+      link: false
+    third_party_settings:
+      field_formatter_class:
+        class: d-ilb
+    type: entity_reference_label
+    region: ds_content
+hidden:
+  field_status: true
+  langcode: true
+  links: true

@@ -1,0 +1,11 @@
+uuid: 4becd9c6-b139-458e-9f9b-7743612f1d5e
+langcode: en
+status: true
+dependencies:
+  module:
+    - bulk_update_fields
+id: bulk_update_fields_on_menu_link_content
+label: 'Bulk Update Custom menu link Fields'
+type: menu_link_content
+plugin: bulk_update_fields_action_base
+configuration: {  }

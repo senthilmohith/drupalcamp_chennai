@@ -1,0 +1,12 @@
+entity_type_groups:
+  node:
+    page:
+      basic: basic
+      advanced: advanced
+    webform:
+      basic: basic
+      advanced: advanced
+  user:
+    user:
+      basic: basic
+      advanced: advanced

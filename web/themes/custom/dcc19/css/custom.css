@@ -8,18 +8,21 @@
 }
 
 .highlight-button-dark {
-	background-color: #4fb8fe !important;
+    background-color: #4fb8fe !important;
     font-weight: bold !important;
     border: 2px solid #46b5ff !important;
 }
+
 .highlight-button-dark:hover {
-	border: 2px solid #46b5ff !important;
+    border: 2px solid #46b5ff !important;
     color: #4fb8fe !important;
 }
+
 .bg-yellow {
-    background: linear-gradient(0deg, #0000009e,rgba(0, 0, 0, 0.48)), url(../images/banneryellow.png) center no-repeat !important;
+    background: linear-gradient(0deg, #0000009e, rgba(0, 0, 0, 0.48)), url(../images/banneryellow.png) center no-repeat !important;
     background-size: cover;
 }
+
 .bg-yellow .black-text {
     color: #fff !important;
 }

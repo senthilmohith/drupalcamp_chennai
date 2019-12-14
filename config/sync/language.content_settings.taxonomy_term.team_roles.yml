@@ -1,0 +1,11 @@
+uuid: df902d80-56f0-4e97-8954-e8ae6f8b485e
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.team_roles
+id: taxonomy_term.team_roles
+target_entity_type_id: taxonomy_term
+target_bundle: team_roles
+default_langcode: site_default
+language_alterable: false

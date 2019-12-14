@@ -53,7 +53,7 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: mini
+        type: full
         options:
           items_per_page: 40
           offset: 0
@@ -62,6 +62,8 @@ display:
           tags:
             previous: ‹‹
             next: ››
+            first: '« First'
+            last: 'Last »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -70,6 +72,7 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
+          quantity: 9
       style:
         type: grid
         options:
@@ -479,23 +482,33 @@ display:
           entity_type: user
           plugin_id: numeric
       sorts:
-        created:
-          id: created
-          table: users_field_data
-          field: created
-          order: DESC
-          entity_type: user
-          entity_field: created
-          plugin_id: date
+        random:
+          id: random
+          table: views
+          field: random
           relationship: none
           group_type: group
           admin_label: ''
+          order: ASC
           exposed: false
           expose:
             label: ''
-          granularity: second
+          plugin_id: random
       title: Attendees
       header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: "<section class=\"bg-yellow no-padding wow fadeInUp animated animated animated animated animated animated\" style=\"visibility: visible; animation-name: fadeInUp;\"><div class=\"container\">\r\n                    <div class=\"padding-three\">\r\n                        <div class=\"no-padding text-center\">\r\n                            <i class=\"medium-icon black-text no-margin\"></i>\r\n                            <span class=\"text-med text-uppercase letter-spacing-2 no-margin black-text font-weight-600 xs-margin-top-six xs-margin-bottom-six display-block\"><strong class=\"wow fadeInUp text-decoration-underline font-weight-700\">Registration Closed!!!</strong></span>\r\n\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </section>"
+            format: dcc19
+          plugin_id: text
         result:
           id: result
           table: views
@@ -526,7 +539,7 @@ display:
       display_extenders: {  }
       use_ajax: false
     cache_metadata:
-      max-age: -1
+      max-age: 0
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -547,7 +560,7 @@ display:
       display_extenders: {  }
       path: attendees
     cache_metadata:
-      max-age: -1
+      max-age: 0
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'

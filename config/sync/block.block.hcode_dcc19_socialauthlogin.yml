@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - block_class
+    - mobile_device_detection
     - social_auth
     - system
     - user
@@ -15,7 +16,7 @@ third_party_settings:
 id: hcode_dcc19_socialauthlogin
 theme: hcode_dcc19
 region: content
-weight: -10
+weight: -11
 provider: null
 plugin: social_auth_login
 settings:
@@ -26,7 +27,7 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/user/login\r\n/user/register"
+    pages: /user/login
     negate: false
     context_mapping: {  }
   user_role:
@@ -36,3 +37,8 @@ visibility:
     negate: false
     context_mapping:
       user: '@user.current_user_context:current_user'
+  mobile_device_detection_condition_plugin:
+    id: mobile_device_detection_condition_plugin
+    devices: {  }
+    negate: null
+    context_mapping: {  }

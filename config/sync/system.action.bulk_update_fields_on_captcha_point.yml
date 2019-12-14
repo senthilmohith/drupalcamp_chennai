@@ -1,0 +1,11 @@
+uuid: 7786bb96-8464-45e7-900d-48a0628e407e
+langcode: en
+status: true
+dependencies:
+  module:
+    - bulk_update_fields
+id: bulk_update_fields_on_captcha_point
+label: 'Bulk Update Captcha Point Fields'
+type: captcha_point
+plugin: bulk_update_fields_action_base
+configuration: {  }

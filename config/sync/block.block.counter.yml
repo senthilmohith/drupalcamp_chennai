@@ -1,0 +1,37 @@
+uuid: f1860f74-7a55-4a0e-8212-84d31929e246
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c41d4b8d-0b85-4342-9e32-905749f13366'
+  module:
+    - block_content
+    - mobile_device_detection
+    - system
+  theme:
+    - hcode_dcc19
+id: counter
+theme: hcode_dcc19
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:c41d4b8d-0b85-4342-9e32-905749f13366'
+settings:
+  id: 'block_content:c41d4b8d-0b85-4342-9e32-905749f13366'
+  label: Counter
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  mobile_device_detection_condition_plugin:
+    id: mobile_device_detection_condition_plugin
+    devices: {  }
+    negate: null
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

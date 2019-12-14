@@ -6,13 +6,14 @@ dependencies:
     - 'block_content:basic:84f041f0-55d5-4d5e-a43e-d8cf2909be82'
   module:
     - block_content
+    - mobile_device_detection
     - system
   theme:
     - hcode_dcc19
 id: venue
 theme: hcode_dcc19
 region: content
-weight: -4
+weight: -3
 provider: null
 plugin: 'block_content:84f041f0-55d5-4d5e-a43e-d8cf2909be82'
 settings:
@@ -26,6 +27,11 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: "<front>\r\n/dcc19-event-schedule"
     negate: false
+    context_mapping: {  }
+  mobile_device_detection_condition_plugin:
+    id: mobile_device_detection_condition_plugin
+    devices: {  }
+    negate: null
     context_mapping: {  }

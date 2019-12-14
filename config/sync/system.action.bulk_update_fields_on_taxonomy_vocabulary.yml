@@ -1,0 +1,11 @@
+uuid: 8ecf8080-5029-4aea-a9a1-6a58e4d51989
+langcode: en
+status: true
+dependencies:
+  module:
+    - bulk_update_fields
+id: bulk_update_fields_on_taxonomy_vocabulary
+label: 'Bulk Update Taxonomy vocabulary Fields'
+type: taxonomy_vocabulary
+plugin: bulk_update_fields_action_base
+configuration: {  }

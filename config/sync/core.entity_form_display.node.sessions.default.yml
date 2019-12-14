@@ -6,11 +6,13 @@ dependencies:
     - field.field.node.sessions.body
     - field.field.node.sessions.field_co_speaker
     - field.field.node.sessions.field_experience_level_
+    - field.field.node.sessions.field_presentation
     - field.field.node.sessions.field_session_state
     - field.field.node.sessions.field_session_track
     - field.field.node.sessions.field_status
     - node.type.sessions
   module:
+    - file
     - text
 id: node.sessions.default
 targetEntityType: node
@@ -27,7 +29,7 @@ content:
     third_party_settings: {  }
     region: content
   field_co_speaker:
-    weight: 4
+    weight: 5
     settings:
       match_operator: CONTAINS
       size: 60
@@ -36,19 +38,26 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_experience_level_:
-    weight: 3
+    weight: 4
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
+  field_presentation:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
   field_session_state:
     type: options_select
-    weight: 5
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
   field_session_track:
-    weight: 2
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     type: options_select

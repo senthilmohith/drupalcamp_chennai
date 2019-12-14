@@ -1,0 +1,27 @@
+uuid: fbd99783-bbbd-4b72-af29-9efcc8a6e21e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_presentation
+    - node.type.sessions
+  module:
+    - file
+id: node.sessions.field_presentation
+field_name: field_presentation
+entity_type: node
+bundle: sessions
+label: Presentation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'pdf ppt doc docx pptx mp4 webm'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

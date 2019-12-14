@@ -1,0 +1,15 @@
+uuid: 33d920da-f145-457f-85cb-56ddaaeb1e50
+langcode: en
+status: true
+dependencies: {  }
+name: team_profile
+label: 'Team Profile'
+effects:
+  59c40992-626b-4c78-bd2e-e0493fb83840:
+    uuid: 59c40992-626b-4c78-bd2e-e0493fb83840
+    id: image_scale
+    weight: 1
+    data:
+      width: 400
+      height: 500
+      upscale: true

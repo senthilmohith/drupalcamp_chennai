@@ -1,0 +1,11 @@
+uuid: ed14e0f0-c77f-4557-8b5a-6c956cdf3e1e
+langcode: en
+status: true
+dependencies:
+  module:
+    - bulk_update_fields
+id: bulk_update_fields_on_shortcut
+label: 'Bulk Update Shortcut link Fields'
+type: shortcut
+plugin: bulk_update_fields_action_base
+configuration: {  }

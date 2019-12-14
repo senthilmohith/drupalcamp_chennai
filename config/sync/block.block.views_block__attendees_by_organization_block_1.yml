@@ -1,0 +1,31 @@
+uuid: 02f6d94d-bd17-4cce-ba8b-01e3f331b055
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.attendees_by_organization
+  module:
+    - system
+    - views
+  theme:
+    - hcode_dcc19
+id: views_block__attendees_by_organization_block_1
+theme: hcode_dcc19
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:attendees_by_organization-block_1'
+settings:
+  id: 'views_block:attendees_by_organization-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "/organizations\r\n/organizations/*\r\n"
+    negate: false
+    context_mapping: {  }

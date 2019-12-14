@@ -1,0 +1,145 @@
+uuid: 76ece294-a551-4be7-b108-1f3bbb853a07
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.token
+    - field.field.user.user.field_about_me
+    - field.field.user.user.field_designation
+    - field.field.user.user.field_drupal_org_profile
+    - field.field.user.user.field_full_name
+    - field.field.user.user.field_gender
+    - field.field.user.user.field_location_city
+    - field.field.user.user.field_mobile_number
+    - field.field.user.user.field_organization
+    - field.field.user.user.field_roles
+    - field.field.user.user.field_t_shirt_size
+    - field.field.user.user.field_twitter_profile_url
+    - field.field.user.user.field_types_of_business
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - ds
+    - field_formatter_class
+    - field_group
+    - image
+    - options
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - group_group_left
+        - user_picture
+        - group_d_gr
+        - field_full_name
+        - field_designation
+        - field_organization
+  field_group:
+    group_group_left:
+      children:
+        - user_picture
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      region: ds_content
+      format_settings:
+        id: ''
+        classes: d-gl
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Group Left'
+    group_d_gr:
+      children:
+        - field_full_name
+        - field_designation
+        - field_organization
+      parent_name: ''
+      weight: 1
+      format_type: html_element
+      region: ds_content
+      format_settings:
+        id: ''
+        classes: d-gr
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Group Right'
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.token
+targetEntityType: user
+bundle: user
+mode: token
+content:
+  field_designation:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: ds_content
+  field_full_name:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: fs-m
+    type: string
+    region: ds_content
+  field_organization:
+    weight: 4
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: ds_content
+  user_picture:
+    type: image
+    weight: 1
+    region: ds_content
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    label: hidden
+hidden:
+  field_about_me: true
+  field_drupal_org_profile: true
+  field_gender: true
+  field_location_city: true
+  field_mobile_number: true
+  field_roles: true
+  field_t_shirt_size: true
+  field_twitter_profile_url: true
+  field_types_of_business: true
+  langcode: true
+  member_for: true

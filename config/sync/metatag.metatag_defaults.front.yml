@@ -7,5 +7,6 @@ _core:
 id: front
 label: 'Front page'
 tags:
-  canonical_url: '[site:url]'
   shortlink: '[site:url]'
+  title: 'Home | Drupal Camp Chennai 2019'
+  canonical_url: '[site:url]'

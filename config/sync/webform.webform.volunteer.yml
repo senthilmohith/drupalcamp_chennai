@@ -220,7 +220,7 @@ handlers:
         - completed
       to_mail: _default
       to_options: {  }
-      cc_mail: 'senthilmca86@gmail.com,punam@unimity.com,sharmila@unimity.com'
+      cc_mail: 'senthilmca86@gmail.com,punam@unimity.com,sharmila.s@unimity.com'
       cc_options: {  }
       bcc_mail: ''
       bcc_options: {  }

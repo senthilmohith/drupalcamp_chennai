@@ -4,12 +4,17 @@ status: true
 dependencies:
   config:
     - core.entity_form_mode.user.register
+    - field.field.user.user.field_about_me
     - field.field.user.user.field_designation
     - field.field.user.user.field_drupal_org_profile
     - field.field.user.user.field_full_name
+    - field.field.user.user.field_gender
     - field.field.user.user.field_location_city
     - field.field.user.user.field_mobile_number
     - field.field.user.user.field_organization
+    - field.field.user.user.field_roles
+    - field.field.user.user.field_t_shirt_size
+    - field.field.user.user.field_twitter_profile_url
     - field.field.user.user.field_types_of_business
     - field.field.user.user.user_picture
   module:
@@ -42,22 +47,35 @@ content:
     settings:
       placeholder: ''
     third_party_settings: {  }
-  google_analytics:
+  field_organization:
+    type: entity_reference_autocomplete
     weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  google_analytics:
+    weight: 4
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   translation:
-    weight: 3
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
   contact: true
+  field_about_me: true
   field_designation: true
   field_drupal_org_profile: true
+  field_gender: true
   field_location_city: true
-  field_organization: true
+  field_roles: true
+  field_t_shirt_size: true
+  field_twitter_profile_url: true
   field_types_of_business: true
   langcode: true
   language: true

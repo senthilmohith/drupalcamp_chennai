@@ -1,4 +1,5 @@
 module:
+  action: 0
   admin_toolbar: 0
   admin_toolbar_tools: 0
   automated_cron: 0
@@ -8,6 +9,7 @@ module:
   block_class: 0
   block_content: 0
   breakpoint: 0
+  bulk_update_fields: 0
   captcha: 0
   ckeditor: 0
   color: 0
@@ -17,6 +19,7 @@ module:
   contact: 0
   contact_block: 0
   contextual: 0
+  csv_serialization: 0
   ctools: 0
   datetime: 0
   dblog: 0
@@ -24,6 +27,8 @@ module:
   editor: 0
   email_registration: 0
   field: 0
+  field_formatter_class: 0
+  field_group: 0
   field_permissions: 0
   field_ui: 0
   file: 0
@@ -34,11 +39,14 @@ module:
   image: 0
   image_captcha: 0
   language: 0
+  layout_discovery: 0
   link: 0
   locale: 0
   media: 0
+  menu_per_role: 0
   menu_ui: 0
   metatag: 0
+  mobile_device_detection: 0
   node: 0
   options: 0
   page_cache: 0
@@ -47,8 +55,10 @@ module:
   rdf: 0
   recaptcha: 0
   reroute_email: 0
+  rest: 0
   rules: 0
   search: 0
+  serialization: 0
   shield: 0
   shortcut: 0
   simple_sitemap: 0
@@ -72,12 +82,15 @@ module:
   typed_data: 0
   update: 0
   user: 0
+  views_data_export: 0
+  views_send: 0
   views_ui: 0
   webform: 0
   webform_node: 0
   webform_submission_export_import: 0
   webform_submission_log: 0
   webform_ui: 0
+  ds: 1
   menu_link_content: 1
   pathauto: 1
   content_translation: 10

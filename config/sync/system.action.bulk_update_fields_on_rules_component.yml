@@ -1,0 +1,11 @@
+uuid: d4f200d8-078b-48cc-94e9-becd33feac37
+langcode: en
+status: true
+dependencies:
+  module:
+    - bulk_update_fields
+id: bulk_update_fields_on_rules_component
+label: 'Bulk Update Rules component Fields'
+type: rules_component
+plugin: bulk_update_fields_action_base
+configuration: {  }

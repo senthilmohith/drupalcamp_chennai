@@ -7,5 +7,9 @@ _core:
 id: global
 label: Global
 tags:
-  canonical_url: '[current-page:url]'
+  robots: 'index, follow'
   title: '[current-page:title] | [site:name]'
+  canonical_url: '[current-page:url]'
+  abstract: ' '
+  keywords: 'DrupalCamp, Chennai, DrupalCamp Chennai, Drupal Camp Chennai, Drupal Camp Chennai 2019,  DCC, Drupal Chennai, Chennai Community, Drupal, Drupal Camp'
+  description: 'We are thrilled to bring you the most exciting event of this year Drupal Camp Chennai 2019! Happening on 7th and 8th December. Its an event happening in Chennai which helps and brings together all kinds of interesting developers, agencies, leaders, marketers together to make the event successful. Drupal Camp Chennai 2019 is a conference organized for the Drupal community and people showing interest in Drupal.'

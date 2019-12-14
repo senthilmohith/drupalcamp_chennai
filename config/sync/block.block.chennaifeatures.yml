@@ -12,7 +12,7 @@ dependencies:
 id: chennaifeatures
 theme: hcode_dcc19
 region: content
-weight: -3
+weight: -2
 provider: null
 plugin: 'block_content:1045a13c-ab56-4613-bac4-516f40635a39'
 settings:

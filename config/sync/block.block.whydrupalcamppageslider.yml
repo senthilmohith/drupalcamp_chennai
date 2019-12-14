@@ -1,0 +1,31 @@
+uuid: 0238b122-36b9-4fc8-9490-3dfa6c05bcbb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dd88eca3-da8f-470e-a16b-964355d577e4'
+  module:
+    - block_content
+    - system
+  theme:
+    - hcode_dcc19
+id: whydrupalcamppageslider
+theme: hcode_dcc19
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:dd88eca3-da8f-470e-a16b-964355d577e4'
+settings:
+  id: 'block_content:dd88eca3-da8f-470e-a16b-964355d577e4'
+  label: 'Why DrupalCamp page slider'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/38
+    negate: false
+    context_mapping: {  }

@@ -6,13 +6,14 @@ dependencies:
     - 'block_content:basic:016a0730-4ac3-47d9-8a19-5335cc5c8be7'
   module:
     - block_content
+    - mobile_device_detection
     - system
   theme:
     - hcode_dcc19
 id: partners
 theme: hcode_dcc19
 region: content
-weight: -6
+weight: -5
 provider: null
 plugin: 'block_content:016a0730-4ac3-47d9-8a19-5335cc5c8be7'
 settings:
@@ -26,6 +27,11 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: "<front>\r\n/sponsors\r\n/node/85"
     negate: false
+    context_mapping: {  }
+  mobile_device_detection_condition_plugin:
+    id: mobile_device_detection_condition_plugin
+    devices: {  }
+    negate: null
     context_mapping: {  }

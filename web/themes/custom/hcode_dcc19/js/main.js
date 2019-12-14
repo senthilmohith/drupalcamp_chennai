@@ -251,11 +251,11 @@ var hashfilter;
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
         nav:true,
-        autoplayHoverPause: false,
+        autoplayHoverPause: true,
         items: 1,
         touchDrag:false,
         mouseDrag:true,
-        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],        
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
     });
     $("#owl-demo-products").owlCarousel({
         navigation: true, // Show next and prev buttons

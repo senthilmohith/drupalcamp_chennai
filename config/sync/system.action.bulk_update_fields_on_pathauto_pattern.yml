@@ -1,0 +1,11 @@
+uuid: 0cf04be7-a068-4217-baa5-4493b63957a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - bulk_update_fields
+id: bulk_update_fields_on_pathauto_pattern
+label: 'Bulk Update Pathauto pattern Fields'
+type: pathauto_pattern
+plugin: bulk_update_fields_action_base
+configuration: {  }

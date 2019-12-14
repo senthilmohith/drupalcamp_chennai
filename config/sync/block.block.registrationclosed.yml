@@ -1,0 +1,45 @@
+uuid: a55fed68-a792-4b1a-a265-eafe479afc1c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d1b4511f-6b28-4692-bb31-f43ad162f6b9'
+  module:
+    - block_content
+    - mobile_device_detection
+    - system
+    - user
+  theme:
+    - hcode_dcc19
+id: registrationclosed
+theme: hcode_dcc19
+region: content
+weight: -15
+provider: null
+plugin: 'block_content:d1b4511f-6b28-4692-bb31-f43ad162f6b9'
+settings:
+  id: 'block_content:d1b4511f-6b28-4692-bb31-f43ad162f6b9'
+  label: 'Registration closed'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  mobile_device_detection_condition_plugin:
+    id: mobile_device_detection_condition_plugin
+    devices: {  }
+    negate: null
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/user\r\n/user/*"
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

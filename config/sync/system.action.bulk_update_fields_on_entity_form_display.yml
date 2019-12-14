@@ -1,0 +1,11 @@
+uuid: 38c86673-2ff3-43b0-8407-73964bf724f5
+langcode: en
+status: true
+dependencies:
+  module:
+    - bulk_update_fields
+id: bulk_update_fields_on_entity_form_display
+label: 'Bulk Update Entity form display Fields'
+type: entity_form_display
+plugin: bulk_update_fields_action_base
+configuration: {  }

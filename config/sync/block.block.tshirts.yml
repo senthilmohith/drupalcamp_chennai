@@ -1,0 +1,31 @@
+uuid: ff409faa-1031-4dfa-9206-99bd427a754e
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:4ac63e65-02a2-4eb3-a0ee-06d94541349c'
+  module:
+    - block_content
+    - system
+  theme:
+    - hcode_dcc19
+id: tshirts
+theme: hcode_dcc19
+region: content
+weight: 1
+provider: null
+plugin: 'block_content:4ac63e65-02a2-4eb3-a0ee-06d94541349c'
+settings:
+  id: 'block_content:4ac63e65-02a2-4eb3-a0ee-06d94541349c'
+  label: T-shirts
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

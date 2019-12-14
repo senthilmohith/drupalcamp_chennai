@@ -1,0 +1,37 @@
+uuid: 30195527-590d-4420-95a1-498b3e1cf3e4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ea4f8d51-7a04-4ac3-83be-0d6b434e986c'
+  module:
+    - block_content
+    - mobile_device_detection
+    - system
+  theme:
+    - hcode_dcc19
+id: featuredspeakers
+theme: hcode_dcc19
+region: content
+weight: -13
+provider: null
+plugin: 'block_content:ea4f8d51-7a04-4ac3-83be-0d6b434e986c'
+settings:
+  id: 'block_content:ea4f8d51-7a04-4ac3-83be-0d6b434e986c'
+  label: 'Featured Speakers'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  mobile_device_detection_condition_plugin:
+    id: mobile_device_detection_condition_plugin
+    devices: {  }
+    negate: null
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: /sessions/accepted
+    negate: false
+    context_mapping: {  }
